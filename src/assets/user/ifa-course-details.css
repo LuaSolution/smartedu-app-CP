@@ -1,0 +1,134 @@
+.course-details-content {
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.course-details-content .details-block-title p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #193769;
+}
+
+.ernpxt button.add-cart:hover {
+    background-color: #07751F;
+    transition: .3s ease-in;
+}
+
+.course-details-content .details-block-title {
+    border-bottom: 1px solid #E1E5F1;
+    padding-bottom: 12px;
+}
+
+.same-course-block .ifa-block-content {
+    margin-top: 80px;
+}
+
+.t-css {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-learn-what {
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 100%;
+}
+
+.list-learn-what div {
+    /* flex-basis: calc(50% -10px); */
+    max-width: 50%;
+}
+
+.course-detail-tab-t-css {
+    display: flex;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1170px) {
+    .course-details-content .details-block-title p {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .same-course-block .ifa-block-content {
+        margin-top: 20px;
+    }
+    .t-css {
+        flex-direction: column-reverse;
+    }
+    .course-detail-tab-t-css a {
+        margin-top: 0px !important;
+    }
+    .course-detail-header-t-css {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .course-detail-header-t-css a {
+        margin-top: 0px !important;
+        text-align: left !important;
+        display: inline-flex !important;
+        width: 22% !important;
+    }
+    .course-detail-header-t-css a svg {
+        margin-left: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ifa-block-content {
+        padding-top: 20px;
+    }
+    .course-detail-header-t-css a {
+        width: 23% !important;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .course-detail-header-t-css a {
+        width: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .course-detail-header-t-css {
+        flex-direction: column;
+       
+    }
+    .course-detail-header-t-css a {
+        width: 100% !important;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .course-detail-tab-t-css {
+        flex-direction: column;
+    }
+    .course-detail-tab-t-css  a.active::after {
+        bottom: -3px !important;
+    }
+    .cmt-mobile div
+    {
+        padding-left: 0px !important; 
+    }
+    .cmt-mobile div div
+    {
+        padding: 10px!important; 
+    }
+    .cmt-mobile div div:last-child
+    {
+        padding: 0px!important; 
+    }
+    .course-detail-tab-t-css a {
+        padding: 8px!important; 
+    }
+    .list-learn-what div {
+        max-width: 100%;
+    }
+    .topic-wrapper .topic-content p {
+        font-size: 16px!important; 
+    }
+    
+}

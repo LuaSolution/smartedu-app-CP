@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;450;600;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    /* font-style: normal; */
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+.ifa-container {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-secondary.dropdown-toggle:focus,
+.btn-secondary:focus,
+.btn-secondary.focus,
+input:focus,
+button:focus,
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.ifa-block-content {
+    /*max-width: 1170px;*/
+    width: 98%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 750px) {
+    .ifa-block-content{
+        padding-top: 65px;
+
+    }
+}
+
+.ifa-user-inside .ifa-container {
+    padding: 46.78px 50.4px 0 91.85px;
+    overflow: hidden;
+    max-width: 1440px;
+}
+
+.ifa-user-inside .ifa-user-left {
+    float: left;
+}
+
+.ifa-user-inside .ifa-user-right {
+    float: right;
+    max-width: calc(100% - 212px);
+}
+
+.ifa-user-inside .ifa-container::after {
+    content: '';
+    clear: both;
+}
+
+.ifa-mr-auto {
+    margin-left: auto;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #C2C7D8;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #C2C7D8;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #C2C7D8;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #C2C7D8;
+}
+
+.ifa-item:hover {
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.2);
+    -ms-transform: scaleY(1.01);
+    /* IE 9 */
+    transform: scaleY(1.01);
+}
+
+.btn-load-more-expert {
+    display: flex;
+    width: 100%;
+  }
+  
+  .btn-load-more-expert button {
+    background: #0B46A9;
+    border-radius: 5px;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 7px 25px;
+    height: 42px;
+    transition: 0.7s all;
+    margin: auto;
+    border:none;
+  }
+  
+  .btn-load-more-expert button:hover {
+    background: var(--primaryBlue);
+    color: var(--white);
+  }
+
+@media only screen and (max-width: 991px) {
+    .ifa-user-inside .ifa-container {
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .ifa-user-inside .ifa-user-right {
+        float: unset;
+        max-width: 100%;
+    }
+}

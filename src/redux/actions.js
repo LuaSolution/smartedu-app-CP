@@ -1,0 +1,78 @@
+/* eslint-disable import/no-cycle */
+/* SETTINGS */
+export const CHANGE_LOCALE = 'CHANGE_LOCALE'
+
+/* AUTH */
+export const LOGIN_USER = 'LOGIN_USER'
+export const LOGIN_USER_SUCCESS = 'LOGIN_USER_SUCCESS'
+export const LOGIN_USER_ERROR = 'LOGIN_USER_ERROR'
+export const REGISTER_USER = 'REGISTER_USER'
+export const REGISTER_USER_SUCCESS = 'REGISTER_USER_SUCCESS'
+export const REGISTER_USER_ERROR = 'REGISTER_USER_ERROR'
+export const LOGOUT_USER = 'LOGOUT_USER'
+export const FORGOT_PASSWORD = 'FORGOT_PASSWORD'
+export const FORGOT_PASSWORD_SUCCESS = 'FORGOT_PASSWORD_SUCCESS'
+export const FORGOT_PASSWORD_ERROR = 'FORGOT_PASSWORD_ERROR'
+export const RESET_PASSWORD = 'RESET_PASSWORD'
+export const RESET_PASSWORD_SUCCESS = 'RESET_PASSWORD_SUCCESS'
+export const RESET_PASSWORD_ERROR = 'RESET_PASSWORD_ERROR'
+
+/* MENU */
+export const MENU_SET_CLASSNAMES = 'MENU_SET_CLASSNAMES'
+export const MENU_CONTAINER_ADD_CLASSNAME = 'MENU_CONTAINER_ADD_CLASSNAME'
+export const MENU_CLICK_MOBILE_MENU = 'MENU_CLICK_MOBILE_MENU'
+export const MENU_CHANGE_DEFAULT_CLASSES = 'MENU_CHANGE_DEFAULT_CLASSES'
+export const MENU_CHANGE_HAS_SUB_ITEM_STATUS =
+  'MENU_CHANGE_HAS_SUB_ITEM_STATUS'
+/* */
+export const DELETE_USERS = 'DELETE_USERS'
+export const DELETE_USERS_SUCCESS = 'DELETE_USERS_SUCCESS'
+export const DELETE_USERS_ERROR = 'DELETE_USERS_ERROR'
+
+/* */
+export const INIT_COURSE_GROUP = 'INIT_COURSE_GROUP'
+/* */
+export const INIT_FINISHED_LECTURES = 'INIT_FINISHED_LECTURES'
+export const EDIT_COURSE_CONTENT_INFO = 'EDIT_COURSE_CONTENT_INFO'
+/* */
+export const CLEAR_COURSE = 'CLEAR_COURSE'
+
+export const UPDATE_COURSE_INFO = 'UPDATE_COURSE_INFO'
+
+export const INIT_COURSE_CHAPTERS = 'INIT_COURSE_CHAPTERS'
+export const ADD_COURSE_CHAPTER = 'ADD_COURSE_CHAPTER'
+export const UPDATE_COURSE_CHAPTERS = 'UPDATE_COURSE_CHAPTERS'
+export const RM_COURSE_CHAPTER = 'RM_COURSE_CHAPTER'
+
+export const INIT_COURSE_BENEFITS = 'INIT_COURSE_BENEFITS'
+export const ADD_COURSE_BENEFIT = 'ADD_COURSE_BENEFIT'
+export const UPDATE_COURSE_BENEFITS = 'UPDATE_COURSE_BENEFITS'
+export const RM_COURSE_BENEFITS = 'RM_COURSE_BENEFITS'
+
+export const UPDATE_COURSE_LECTURES = 'UPDATE_COURSE_LECTURES'
+export const ADD_LECTURE = 'ADD_LECTURE'
+export const UPDATE_LECTURE = 'UPDATE_LECTURE'
+export const RM_LECTURE = 'RM_LECTURE'
+export const UPDATE_LECTURE_NAME = 'UPDATE_LECTURE_NAME'
+
+export const INIT_COURSE_RESOURCES = 'INIT_COURSE_RESOURCES'
+/* */
+export const INIT_USER_LIST = 'INIT_USER_LIST'
+
+// Q and A
+export const INIT_QA_LIST = 'INIT_QA_LIST'
+export const QA_LIST_APPEND = 'QA_LIST_APPEND'
+
+// Discusses
+export const INIT_DISCUSS_LIST = 'INIT_DISCUSS_LIST'
+export const APPEND_DISCUSS_LIST = 'APPEND_DISCUSS_LIST'
+export const ADD_REPLY_TO_DISCUSS = 'ADD_REPLY_TO_DISCUSS'
+
+export * from './menu/actions'
+export * from './courseGroups/actions'
+export * from './courses/actions'
+export * from './settings/actions'
+export * from './users/actions'
+export * from './QandA/actions'
+export * from './discusses/actions'
+export * from './courseContents/actions'

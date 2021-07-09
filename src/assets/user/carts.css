@@ -1,0 +1,245 @@
+.vien-e {
+    border: 1px solid #eee;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+.mr-15px {
+    margin-right: 8px;
+}
+
+.breadcrumb {
+    background-color: var(--white);
+    font-size: 16px;
+}
+
+.breadcrumb a {
+    color: var(--xanhDamA9);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.breadcrumb-item.active {
+    color: var(--xam230);
+    font-weight: bold;
+}
+
+.box-body-cart {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    /* Shadow 2 */
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.1);
+    border-radius: 10px;
+}
+
+.box-cart-course .header-cart-course {
+    margin-top: 20px;
+    padding: 20px 15px;
+    background-color: var(--primaryBlue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.box-cart-course .box-body-cart .box-list-items-cart {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex-basis: 75%;
+}
+
+.box-cart-course .box-body-cart .box-total-price {
+    flex-basis: 25%;
+}
+
+.box-cart-course .box-list-items-cart .item-cart {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.1);
+}
+
+.box-cart-course .box-list-items-cart .item-cart .col-1-img-style {
+    max-width: 180px;
+    /* max-height: 100%; */
+    border-radius: 10px;
+}
+
+.box-cart-course .box-list-items-cart .item-cart .col-1-img-style img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.box-cart-course .box-list-items-cart .item-cart .col-2-info-name {
+    font-size: 18px;
+    color: var(--xamE57);
+    /* padding-left: 16px; */
+    max-width: 40%;
+    padding: 15px 0 15px 15px;
+    justify-content: space-between;
+}
+
+.box-cart-course .box-list-items-cart .item-cart .col-2-info-name .name-course {
+    font-weight: bold;
+    color: var(--xanhDamA9);
+}
+
+.box-cart-course .box-list-items-cart .item-cart .col-2-info-name .teacher {
+    margin-top: 8px;
+}
+
+.box-cart-course .box-list-items-cart .item-cart .col-2-info-name .teacher span {
+    font-weight: bold;
+}
+
+.box-cart-course .box-list-items-cart .item-cart .col-3-action {
+    color: var(--xamE57);
+    justify-content: space-between;
+    padding: 16px 0 16px 16px;
+}
+.box-cart-course .box-list-items-cart .item-cart .col-4-price {
+    padding: 15px 0 15px 15px;
+}
+
+.box-cart-course .box-list-items-cart .item-cart .col-4-price .new-price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box-cart-course .box-list-items-cart .item-cart .col-4-price .old-price {
+    text-decoration-line: line-through;
+}
+
+.box-cart-course .box-total-price {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 24px 15px;
+    background-color: var(--white);
+    border-radius: 10px;
+    height: 50%;
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.1);
+}
+
+.box-cart-course .box-total-price .title-total {
+    font-size: 18px;
+    color: var(--xamE86);
+    height: 36px;
+    border-bottom: 1px solid #eeee;
+}
+
+.box-cart-course .box-total-price .total-price {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--xamE57);
+    line-height: 140%;
+}
+
+.box-cart-course .box-total-price button {
+    margin-top: 10px;
+    width: 100%;
+    background-color: var(--xanhDamA9);
+    padding: 8px 0px;
+    font-size: 18px;
+    color: var(--white);
+    border-radius: 5px;
+    border: none;
+}
+
+.box-cart-course .box-total-price button:hover {
+    background-color: var(--primaryBlue);
+}
+
+.box-cart-course .btn-chon-them-KH {
+    padding: 40px 0;
+    display: flex;
+}
+
+.box-cart-course .btn-chon-them-KH button {
+    margin: 0 auto;
+    color: var(--xamE86);
+    background-color: var(--white);
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid var(--xamE86);
+    transition: ease-in 0.5;
+}
+
+.box-cart-course .btn-chon-them-KH button:hover {
+    background-color: var(--xanhDamA9);
+    border: none;
+    color: var(--white);
+    border: 1px solid var(--xanhDamA9);
+    transition: ease-in 0.5;
+}
+@media screen and (max-width: 1024px)
+{
+    /* .box-cart-course .box-list-items-cart .item-cart {
+        display: flex;
+        flex-direction: column;
+    } */
+     .box-cart-course .box-list-items-cart .item-cart .col-1-img-style {
+        max-width: 120px;
+    } 
+    .box-cart-course .box-body-cart .box-list-items-cart {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 812px)
+{
+    .box-body-cart {
+        flex-direction: column;
+    }
+    .box-cart-course .box-total-price .title-total,.box-cart-course .box-total-price .total-price  {
+        text-align: center;
+    }
+    .box-cart-course .box-list-items-cart .item-cart {
+        flex-direction: column;
+    }
+    .box-cart-course .box-list-items-cart .item-cart .col-1-img-style, .box-cart-course .box-list-items-cart .item-cart .col-2-info-name {
+        max-width: 100%;
+    }
+    .box-cart-course .box-list-items-cart .item-cart .col-3-action {
+        justify-content: flex-start;
+        padding: 0px 0 0px 16px;
+        display: flex;
+        flex-direction: row;
+    }
+    .box-cart-course .box-list-items-cart .item-cart .col-4-price {
+        padding: 15px 0 15px 15px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .box-cart-course .box-list-items-cart .item-cart .col-4-price .old-price {
+        align-self: center;
+        margin-right: 16px;
+    }
+    .box-cart-course .box-list-items-cart .item-cart .col-4-price .new-price
+    {
+        margin-right: 16px;  
+    }
+    .box-cart-course .box-list-items-cart .item-cart {
+        margin-bottom: 16px;
+    }
+    .box-cart-course .box-total-price {
+        border: 1px solid #eee;
+        margin-top: 0px; 
+        margin-right: 0px;
+    }
+
+}

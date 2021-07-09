@@ -1,0 +1,445 @@
+.mentor-main .step-wapper img {
+    max-width: 100%;
+}
+
+.mentor-Intro-container .step-wapper {
+    margin: 0px 0 100px 0;
+}
+
+.mentor-Intro-container .step-wapper {
+    position: relative;
+}
+
+.mentor-Intro-container .num-step {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+}
+
+.mentor-Intro-container {
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    min-height: 781px;
+    position: relative;
+}
+
+.mentor-wapper {
+    padding: 80px 0px 0px 0px
+}
+
+.mentor-Intro-left {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.mentor-Intro-left .title {
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 600;
+}
+
+.mentor-Intro-left .subtitle {
+    font-weight: normal;
+    margin-top: 34px;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+.mentor-Intro-left .cnt {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+    letter-spacing: 0.02em;
+    /* Gray/2 */
+    color: #E5EAFA;
+}
+
+#banner-mentor .btn, #main-mentor .btn {
+    margin-top: 54px;
+    padding: 18px 30px;
+    color: #363E57;
+    background-color: #fff;
+    text-align: center;
+}
+
+#banner-mentor .btn, #main-mentor .btn {
+    background-repeat: no-repeat;
+    display: block;
+    width: 300px;
+    text-align: center;
+    height: 61px;
+    background-position: 238px 19px;
+    text-align: left;
+    transition: .1s ease-in;
+    text-align: center;
+}
+
+#banner-mentor .btn:hover, #main-mentor .btn:hover {
+    background-color: #CC001B;
+    color: #FFFFFF;
+}
+
+.top-small-text {
+    color: #CC001B;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    position: relative
+}
+
+.top-small-text:after {
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #193769;
+    position: absolute;
+    bottom: 7px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.top-lg-text {
+    color: #193769;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.mentor-main .des {
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 40px 0px;
+}
+
+.mentor-main .step {
+    width: 153.17px;
+    color: #fff;
+    height: 95px;
+    text-align: center;
+    left: 25%;
+    ;
+    background: #0B46A9;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 95px;
+    position: absolute;
+}
+
+.mentor-main .step:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    position: absolute;
+    width: 147.73px;
+    height: 93.18px;
+    right: -15px;
+    top: -15px;
+    border: 3px solid #CC001B;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.mentor-main .col-8 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #193769;
+}
+
+.mentor-main .title-step {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #193769;
+    text-align: center;
+}
+
+.pic-step {
+    position: relative;
+    z-index: -5;
+}
+
+.mentor-main .des-step {
+    margin-top: 8px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #363E57;
+}
+
+.mentor-main .step-wapper {
+    padding: 10px 0px;
+}
+
+.mentor-main section {
+    margin: 60px 0;
+}
+
+.mentor-main section img {
+    width: 100%
+}
+
+.join-now {
+    margin: 0px 0px 80px 0px;
+    padding: 60px 0px;
+    height: 431.69px;
+    /*    background-color:;*/
+    background: linear-gradient(98.92deg, #D7384D 0%, #08398C 47.44%);
+}
+
+#main-mentor .join-now {
+    position: relative
+}
+
+#main-mentor .join-now .des {
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+#main-mentor .join-now img {
+    position: absolute;
+    z-index: 99;
+    bottom: -50px;
+    max-width: 100%
+}
+
+#banner-mentor img {
+    max-width: 100%
+}
+
+@media screen and (max-width: 1920px)
+{
+    #main-mentor .join-now img {
+        bottom: -93px;
+    }
+}
+@media screen and (max-width: 1024px)
+{
+    .mentor-Intro-left .title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    #banner-mentor .btn, #main-mentor .btn {
+        width: 73% !important;
+    }
+    .join-now {
+        height: 470px;
+    }
+    .mentor-Intro-container {
+        background-size: cover;
+        min-height: 672px;
+    }
+    .top-lg-text {
+        font-size: 45px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+    .mentor-Intro-left .title {
+        font-size: 28px;
+        text-align: center;
+    }
+    .mentor-Intro-left .subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .mentor-Intro-left .cnt {
+        font-size: 18px;
+    }
+    .mentor-wapper {
+        padding: 50px 0px 0px 0px;
+    }
+    #banner-mentor .btn, #main-mentor .btn {
+        margin: 30px auto;
+        width: 85% !important;
+    }
+  
+    .mentor-Intro-container {
+        min-height: 450px;
+        background-size: cover
+    }
+    .top-small-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .top-lg-text {
+        font-size: 20px;
+    }
+    .mentor-main .des {
+        font-size: 19px;
+        text-align: center;
+        max-width: 100%;
+        padding: 15px 0px;
+    }
+    .mentor-main .step {
+        left: 30%;
+        top: -20px;
+        width: 120px;
+        height: 60px;
+        font-size: 18px;
+        line-height: 60px;
+    }
+    .mentor-main .step:before {
+        width: 120px;
+        height: 60px;
+        right: -8px;
+        bottom: -8px;
+    }
+    .mentor-main .col-8 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .mentor-main .des-step {
+        margin-top: 0px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .mentor-main section {
+        margin: 20px 0;
+    }
+    .mentor-main .step-wapper {
+        padding: 0px 0px 10px 0px;
+        margin-top: 30px;
+    }
+    .join-now {
+        margin: 30px 0px 80px 0px;
+    }
+    #main-mentor .join-now .des {
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .join-now {
+        padding: 20px 0px;
+        height: 333.69px;
+    }
+    .mentor-Intro-left .title {
+        line-height: 40px;
+        font-size: 24px;
+    }
+    .top-small-text:after {
+        height: 3px;
+        margin-left: 8px;
+        width: 30px;
+    }
+    .mentor-main .title-step {
+        font-size: 20px;
+    }
+    .mentor-Intro-container .step-wapper {
+        margin: 30px 0 0px 0;
+    }
+    .join-now {
+        height: 300px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px)
+{
+    #banner-mentor .btn, #main-mentor .btn {
+        width: 100% !important;
+    }
+    .mentor-Intro-container {
+        min-height: 490px;
+    }
+    .join-now {
+        height: 326px;
+    }
+    #main-mentor .join-now img {
+        bottom: -5px;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+    #banner-mentor .btn, #main-mentor .btn {
+        margin: 30px auto;
+        width: 63% !important;
+    }
+    .mentor-main .step {
+        left: 37%;
+    }
+    .mentor-Intro-right {
+        display: none;
+    }
+    .join-now-pic {
+        display: none;
+    }
+    .mentor-Intro-left .cnt {
+        font-size: 17px;
+    }
+    .mentor-Intro-container {
+        min-height: 400px;
+    }
+    .join-now {
+        height: 265px;
+        margin: 30px 0px 30px 0px;
+    }
+}
+
+
+@media screen and (max-width: 667px) {
+    .mentor-main .step {
+        left: 33%;
+    }
+    .mentor-Intro-container {
+        min-height: 396px;
+    }
+    .join-now {
+        height: 265px;
+    }
+    .mentor-main .step {
+        left: 36%;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    .mentor-main .step {
+        left: 30%;
+    }
+    #banner-mentor .btn, #main-mentor .btn {
+        width: 85% !important;
+    }
+    .mentor-Intro-container {
+        min-height: 410px;
+    }
+    .join-now {
+        height: 301px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    #banner-mentor .btn, #main-mentor .btn {
+        width: 95% !important;
+    }
+    .mentor-Intro-container {
+        min-height: 410px;
+    }
+    .mentor-wapper {
+        padding: 30px 0px 0px 0px;
+    }
+    .join-now {
+        height: 324px;
+        margin: 0px 0px 30px 0px;
+    }
+    .ifa-footer {
+        padding: 24px 15px 24px 15px;
+    }
+    
+}
+

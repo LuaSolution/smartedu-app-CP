@@ -1,0 +1,32 @@
+.ifa-user-right .ifa-user-top {
+    width: 1078px;
+    max-width: 100%;
+    height: 140px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #193769;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    padding: 55px 40px 20px 40px;
+    position: relative;
+    display: block;
+}
+.ifa-user-right .ifa-user-top::after {
+    background-image: url(/assets/img/web/dashboard/3.png);
+    content: '';
+    background-repeat: no-repeat;
+    right: 20px;
+    bottom: 32px;
+    position: absolute;
+    width: 117px;
+    height: 75px;
+}
+@media only screen and (max-width: 991px) {
+    .ifa-user-right .ifa-user-top {
+        display: none;
+    }
+}

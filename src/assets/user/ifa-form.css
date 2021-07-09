@@ -1,0 +1,346 @@
+.form-page .img,
+.form-page .form {
+    float: left;
+}
+
+.ifa-footer {
+    clear: both;
+}
+
+.form-page .form {
+    position: relative;
+    z-index: 1;
+}
+
+.form-page .comeback-link {
+    background-image: url(/assets/img/web/login/2.png);
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    background-size: 25px 25px;
+}
+
+.form-page .comeback-link a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #8692A6;
+}
+
+.form-page .comeback-link a:hover {
+    border-bottom: 2px solid #8692A6;
+}
+
+.form-wrapper .ifa-form-control .label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #696F79;
+    margin-top: 20px;
+}
+
+.form-wrapper .ifa-form-control .input-group input {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    margin-top: 14px;
+    padding: 18px 30px;
+    height: 48px;
+    width: 100%;
+    max-width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #C2C7D8;
+}
+
+.form-wrapper .ifa-submit-btn {
+    margin-top: 30px;
+    width: 440px;
+    width: 100%;
+    height: 50px;
+}
+
+.form-wrapper .ifa-submit-btn input {
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    background-color: #0B46A9;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-wrapper .ifa-submit-btn input:hover {
+    color: #fff;
+    background-color: #193769;
+}
+
+.form-page {
+    background-color: #F7F7F7;
+    overflow: hidden;
+    position: relative;
+}
+
+.form-page .form-wrapper {
+    margin-top: 80px;
+    background-color: #fff;
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.1);
+    width: 725px;
+    max-width: 100%;
+}
+
+.form-page .form-wrapper .title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.form-page .form-wrapper .sub-title {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #676E86;
+    border-bottom: 1px solid #C2C7D8;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.form-page .forgot-password-wrapper {
+    text-align: center;
+}
+
+.form-page .forgot-password {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    color: #CC001B;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    height: 35px;
+}
+
+.form-page .forgot-password:hover {
+    border-bottom: 4px solid #CC001B;
+}
+
+.form-page .register-link {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #676E86;
+}
+
+.form-page .register-link a {
+    margin-left: 10px !important;
+    color: #045EF3;
+}
+
+.form-page::after {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/img/web/login/3.png);
+    width: 148px;
+    height: 138px;
+    bottom: 262px;
+    right: 0;
+    z-index: 0;
+    background-repeat: no-repeat;
+}
+
+.form-page .ifa-form-control-50 {
+    width: 49%;
+    max-width: 49%;
+    display: inline-block;
+}
+
+.form-page .ifa-form-control-50:nth-child(2n) {
+    float: right;
+}
+
+.form-page .ifa-form-control-50:nth-child(2n+1) {
+    float: left;
+}
+
+.form-page .custom-checkbox {
+    margin-top: 35px;
+}
+
+.form-page .custom-checkbox .custom-control-label::before {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #C2C7D8;
+    border-color: #C2C7D8;
+    background-color: #193769;
+}
+
+.custom-control-label::before {
+    border: #C2C7D8 solid 1px;
+}
+
+.custom-control-label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #696F79;
+}
+
+.custom-control-label a {
+    color: #1D57B8;
+}
+
+.custom-control-label a:hover {
+    border-bottom: 1px solid #1D57B8;
+}
+
+.form-wrapper .ifa-form-control.error .input-group input {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    border: 1px solid #F0424C;
+}
+
+.form-wrapper .ifa-form-control .message,
+.form-wrapper .ifa-form-control .input-group .clear-input {
+    display: none;
+}
+
+.form-wrapper .ifa-form-control.error .message {
+    margin-top: 8px;
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #CC001B;
+}
+
+.form-wrapper .ifa-form-control.error .input-group .clear-input {
+    display: block;
+    position: absolute;
+    top: calc(50% - 8px);
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: no-repeat;
+    font-size: 24px;
+    line-height: 24px;
+    right: 10px;
+    color: #CC001B;
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1456px) {
+
+    .form-page .img,
+    .form-page .form {
+        max-width: 50%;
+    }
+
+    .form-page .img img {
+        max-width: 100%;
+    }
+
+    .form-page .form {
+        padding: 20px 20px 0 20px;
+    }
+
+    .form-page .form-wrapper {
+        padding: 50px;
+        margin-top: 50px;
+    }
+
+    .form-page::after {
+        display: none;
+    }
+
+    .form-page .custom-checkbox {
+        margin-top: 15px;
+    }
+
+    .form-wrapper .ifa-submit-btn {
+        margin-top: 15px;
+    }
+
+    .form-page .register-link {
+        margin-top: 20px;
+    }
+
+    .form-wrapper .ifa-form-control .label {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .form-page .img,
+    .form-page .form {
+        float: unset;
+    }
+
+    .form-page .img {
+        display: none;
+    }
+
+    .form-page .form {
+        max-width: 100%;
+    }
+
+    .form-page .form-wrapper {
+        margin-top: 20px;
+    }
+
+    .form-page::after {
+        display: none;
+    }
+
+    .form-page .form-wrapper {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .form-page .ifa-form-control-50 {
+        width: 49%;
+    }
+
+    .form-wrapper .ifa-form-control .input-group input {
+        width: 100%;
+    }
+
+    .form-wrapper .ifa-submit-btn {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .form-page .custom-checkbox {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .form-wrapper .ifa-form-control .input-group input {
+        padding: 18px 10px;
+    }
+    .form-page.forgot-password-page .form-wrapper .title {
+        margin-top: 0px;
+    }
+}

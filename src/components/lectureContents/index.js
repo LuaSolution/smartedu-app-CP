@@ -1,0 +1,6 @@
+export { default as VideoPlayer } from './video'
+export { default as ScormViewer } from './scorm'
+export { default as DocumentViewer } from './document'
+export { default as Exams } from './exams'
+export { default as Test } from './test'
+export { default as Presentation } from './presentation'

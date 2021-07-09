@@ -1,0 +1,439 @@
+@charset "utf-8";
+/* CSS Document */
+
+.obo-main .step-wapper img {
+    max-width: 100%;
+}
+
+.obo-Intro-container .step-wapper {
+    margin: 0px 0 30px 0;
+}
+
+.obo-Intro-container .step-wapper {
+    position: relative;
+}
+
+.obo-Intro-container .num-step {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+}
+
+.obo-Intro-container {
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    min-height: 781px;
+    position: relative;
+}
+
+.obo-wapper {
+    padding: 80px 0px 0px 0px
+}
+
+.obo-Intro-left {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.obo-Intro-left .title {
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 600;
+}
+
+.obo-Intro-left .subtitle {
+    font-weight: normal;
+    margin-top: 34px;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+.obo-Intro-left .cnt {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+    letter-spacing: 0.02em;
+    /* Gray/2 */
+    color: #E5EAFA;
+}
+
+#banner-obo .btn, #main-obo .btn {
+    margin-top: 54px;
+    padding: 18px 30px;
+    color: #363E57;
+    background-color: #fff;
+    text-align: center;
+}
+
+#banner-obo .btn, #main-obo .btn {
+    /* background-image: url(./images/iconright.svg); */
+    background-repeat: no-repeat;
+    display: block;
+    width: 233px;
+    height: 61px;
+    background-position: 187px 19px;
+    text-align: left;
+    transition: .1s ease-in;
+    text-align: center;
+}
+
+#banner-obo .btn:hover, #main-obo .btn:hover {
+    background-color: #CC001B;
+    color: #FFFFFF;
+    /* background-image: url("./images/iconright-hv.svg"); */
+}
+
+.top-small-text {
+    color: #CC001B;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    position: relative
+}
+
+.top-small-text:after {
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #193769;
+    position: absolute;
+    bottom: 7px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.top-lg-text {
+    color: #193769;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.obo-main .des {
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 40px 0px;
+}
+
+.obo-main .step {
+    width: 153.17px;
+    color: #fff;
+    height: 95px;
+    text-align: center;
+    background: #0B46A9;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 95px;
+    position: absolute;
+    /* max-width: 100%; */
+}
+
+.obo-main .step:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    position: absolute;
+    width: 147.73px;
+    height: 93.18px;
+    right: -15px;
+    top: -15px;
+    border: 3px solid #CC001B;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.obo-main .col-8 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #193769;
+}
+
+.obo-main .title-step {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #193769;
+    text-align: center;
+}
+
+.pic-step {
+    position: relative;
+    z-index: -5;
+}
+
+.obo-main .des-step {
+    margin-top: 8px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #363E57;
+}
+
+.obo-main .step-wapper {
+    padding: 10px 0px;
+}
+
+.obo-main section {
+    margin: 60px 0;
+}
+
+.obo-main section img {
+    width: 100%
+}
+
+#main-obo .join-now {
+    margin: 80px 0px 80px 0px;
+    padding: 60px 0px;
+    height: 431.69px;
+    /*    background-color:;*/
+    background: linear-gradient(98.92deg, #D7384D 0%, #08398C 47.44%);
+}
+
+#main-obo .join-now {
+    position: relative
+}
+
+#main-obo .join-now .des {
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+#main-obo .join-now img {
+    position: absolute;
+    z-index: 99;
+    bottom: -50px;
+    max-width: 100%
+}
+
+#banner-obo img {
+    max-width: 100%
+}
+@media screen and (max-width: 1920px) 
+{
+    #main-obo .join-now img {
+        bottom: -93px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .obo-Intro-left .title {
+        font-size: 28px;
+        text-align: center;
+    }
+    .obo-Intro-left .subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .obo-Intro-left .cnt {
+        font-size: 18px;
+    }
+    .obo-wapper {
+        padding: 50px 0px 0px 0px;
+    }
+    #banner-obo .btn, #main-obo .btn {
+        margin: 30px auto;
+    }
+    .obo-Intro-container {
+        min-height: 505px;
+        background-size: cover
+    }
+    .top-small-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .top-lg-text {
+        font-size: 20px;
+    }
+    .obo-main .des {
+        font-size: 19px;
+        text-align: center;
+        max-width: 100%;
+        padding: 15px 0px;
+    }
+    .obo-main .step {
+        left: 0px;
+        top: 0px;
+        width: 110px;
+        height: 60px;
+        font-size: 18px;
+        line-height: 60px;
+    }
+    .obo-main .step:before {
+        width: 110px;
+        height: 60px;
+        right: -13px;
+        bottom: -8px;
+    }
+    .obo-main .col-8 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: -25px;
+    }
+    .obo-main .des-step {
+        margin-top: 20px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .obo-main section {
+        margin: 20px 0;
+    }
+    .obo-main .step-wapper {
+        padding: 0px 0px 10px 0px;
+        margin-top: 30px;
+    }
+    .join-now {
+        margin: 30px 0px 80px 0px;
+    }
+    #main-obo .join-now .des {
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .join-now {
+        padding: 20px 0px;
+        height: 333.69px;
+    }
+    .obo-Intro-left .title {
+        line-height: 40px;
+        font-size: 24px;
+    }
+    .top-small-text:after {
+        height: 3px;
+        margin-left: 8px;
+        width: 30px;
+    }
+    .obo-main .title-step {
+        font-size: 20px;
+    }
+    .obo-Intro-container .step-wapper {
+        margin: 30px 0 0px 0;
+    }
+    #main-obo .join-now {
+        margin: 40px 0px 40px 0px;
+        padding: 30px 0px;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .obo-main .col-8 {
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 40px;
+        color: #193769;
+        padding: 0 0 0 50px;
+    }
+    #main-obo .join-now {
+        margin: 80px 0px 80px 0px;
+        padding: 60px 0px;
+        height: 470.69px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .obo-Intro-container {
+        min-height: 539px;
+    }
+    .obo-main .col-8 {
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 40px;
+        color: #193769;
+        padding: 0 0 0 23px;
+    }
+    #main-obo .join-now {
+        margin: 0px;
+        padding: 60px 0px;
+        height: 395.69px;
+    }
+    #main-obo .join-now img {
+        bottom: -35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .obo-Intro-right {
+        display: none;
+    }
+    .join-now-pic {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .obo-Intro-container {
+        min-height: 546px;
+    }
+    .obo-main .col-8 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+        color: #193769;
+        padding: 0 0 0 30px;
+    }
+    #main-obo .join-now {
+        height: 345px;
+    }
+    #main-obo .join-now {
+        margin: 0px 0px 0px 0px;
+        padding: 30px 0px;
+        height: 356px;
+    }
+    #main-obo .join-now img {
+        bottom: -25px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .obo-Intro-container {
+        min-height: 465px;
+    }
+    .obo-main .des {
+        font-size: 17px;
+    }
+    .obo-main .col-8 {
+        font-size: 24px;
+        padding: 0 0 0 0px;
+    }
+    #main-obo .join-now {
+        height: 285px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .obo-Intro-container {
+        min-height: 505px;
+    }
+    .obo-main .col-8 {
+        padding: 0 0 0 10px;
+    }
+    #main-obo .join-now {
+        height: 307px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .obo-Intro-container {
+        min-height: 529px;
+    }
+    .obo-main .col-8 {
+        font-size: 22px;
+        padding: 0 0 0 20px;
+    }
+    #main-obo .join-now {
+        height: 340px;
+    }
+    
+
+}

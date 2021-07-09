@@ -1,0 +1,29 @@
+.login-page.ifa-container {
+    max-width: 1440px;
+}
+
+.form-page.login-page .form {
+    padding: 80px 53px 0 53px;
+}
+
+.form-page.login-page .form-wrapper {
+    margin-top: 30px;
+    padding: 50px 144px 50px 144px;
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1456px) {
+    .form-page.login-page .form-wrapper {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .form-page.login-page .form {
+        padding: 20px 20px 0 20px;
+    }
+
+    .form-page.login-page .form-wrapper {
+        margin-top: 20px;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,34 @@
+.register-page.ifa-container {
+    max-width: 1440px;
+}
+.form-page.register-page .form {
+    padding: 80px 45px 0 63px;
+}
+.form-page.register-page .form-wrapper {
+    margin-top: 30px;
+    padding: 50px 143px 50px 143px;
+}
+@media only screen 
+  and (min-width: 990px) 
+  and (max-width: 1456px) {
+    .form-page.register-page .form-wrapper {
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .form-page.register-page .form {
+        padding: 10px 20px;
+    }
+    .form-page.register-page .form-wrapper .sub-title {
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .form-page.register-page .form {
+        padding: 20px 20px 0 20px;
+    }
+    .form-page.register-page .form-wrapper {
+        margin-top: 20px;
+        padding: 20px;
+    }
+}

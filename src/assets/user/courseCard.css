@@ -1,0 +1,158 @@
+.new-course-item {
+    display: flex;
+    border: 1px solid var(--nenE);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    width: 98%;
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.1);
+}
+
+.new-course-item .col-1-img-style {
+    width: 426.58px;
+    height: 214.5px;
+    left: 0px;
+    top: 0px;
+}
+
+.new-course-item .col-1-img-style img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.new-course-item .col-2-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-course-item .col-2-content {
+    padding: 15px 24px;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.new-course-item .col-2-content .row-21-name-course {
+    font-size: 17px;
+    line-height: 150%;
+    color: #091230;
+    font-weight: bold;
+}
+
+.new-course-item .col-2-content .row-22 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-course-item .col-2-content .row-22 .number-student-curriculum {
+    display: flex;
+    color: #676E86;
+}
+
+.new-course-item .col-2-content .row-22 .number-student-curriculum .number-student {
+    margin-right: 24px;
+    display: flex;
+}
+.new-course-item .col-2-content .row-22 .number-student-curriculum .number-curriculum{
+    display: flex;
+}
+.new-course-item .col-2-content .row-22 .number-student-curriculum .number-curriculum .anticon-file-text
+{
+    align-self: center;
+    margin-right: 8px;
+}
+.new-course-item .col-2-content .row-22 .number-student-curriculum .number-student .anticon-team{
+    align-self: center;
+    margin-right: 5px;
+}
+
+.new-course-item .col-2-content .row-23 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-course-item .col-2-content .row-23 .course-price {
+    display: flex;
+}
+
+.new-course-item .col-2-content .row-23 .course-price .old-price {
+    margin-right: 24px;
+    color: #676E86;
+    text-decoration: line-through;
+    align-self: center;
+}
+
+.new-course-item .col-2-content .row-23 .course-price .new-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #CC001B;
+}
+
+.new-course-item {
+    position: relative;
+}
+.course-progress {
+    width: 50%;
+}
+@media screen and (max-width: 1024px)
+{
+    .new-course-item .col-1-img-style {
+        width: 250px;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .course-progress {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .new-course-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new-course-item .col-1-img-style {
+        width: 100%;
+        height: unset;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .new-course-item .col-2-content {
+        padding: 15px 24px;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 768px) 
+{
+    .new-course-item .col-2-content .row-22 .number-student-curriculum {
+        width: 30%;
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width: 414px) {
+    .new-course-item .col-2-content .row-22 {
+        flex-direction: column;
+    }
+
+    .new-course-item .col-2-content .row-23 {
+        flex-direction: column;
+    }
+
+    .new-course-item .col-2-content .row-23 .course-price {
+        justify-content: flex-start;
+    }
+    .new-course-item .col-2-content .row-22 .number-student-curriculum {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .new-course-item .col-2-content .row-23 .course-price {
+        justify-content: flex-end;
+    }
+}

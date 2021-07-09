@@ -1,0 +1,18 @@
+@media screen and (max-width: 414px) {
+    .box-list-comment-course .doc {
+        line-height: 24px;
+        padding: 0 33px 16px 62px;
+    }
+    .comment-wrapper .comment-bottom .reply {
+        margin-left: 20px;
+    }
+    .show-left-menu .menu-left {
+        display: block;
+        -webkit-transition: .3s ease-in;
+        transition: .3s ease-in;
+        z-index: 999;
+    }
+    .ifa-block-content {
+        padding-top: 10px;
+    }
+}

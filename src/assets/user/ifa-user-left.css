@@ -1,0 +1,143 @@
+.ifa-user-left {
+    width: 192px;
+}
+
+.ifa-file-input {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.ifa-file-input input {
+    display: none;
+}
+
+.ifa-file-input span {
+    background-image: url(/assets/img/web/dashboard/2.png);
+    width: 52px;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+}
+
+.ifa-user-left .avatar {
+    width: 170px;
+    height: 170px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #eee;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+.ifa-user-left .avatar img {
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.ifa-user-left .info {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ifa-user-left .info .name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #193769;
+}
+
+.ifa-user-left .info .pos {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #676E86;
+}
+
+.ifa-user-left .btn-user-info .btn-thong-tin-ca-nhan {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 0.01em;
+    color: #363E57;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    width: 100%;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #BAD4FF;
+    margin-top: 15px;
+    padding: 11px;
+}
+
+.ifa-user-left .btn-user-info .btn-thong-tin-ca-nhan:hover {
+    border: none;
+    background: #0B46A9;
+    color: #fff;
+    transition: ease-in .2s;
+}
+
+.ifa-user-left .list-link {
+    margin-top: 28px;
+    padding: 10px 10px 20px 10px;
+    background-color: #fff;
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.ifa-user-left .list-link .link {
+    display: block;
+    background: #E1E5F1;
+    padding: 9px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #363E57;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    height: 38px;
+    margin-top: 10px;
+}
+.ifa-user-left .list-link .link.active {
+    background: #4063E0;
+    color: #fff;
+}
+@media only screen and (max-width: 991px) {
+    .ifa-user-inside .ifa-user-left {
+        float: unset;
+        display: none;
+    }
+}
+/* end 991 */
+
+@media only screen and (max-width: 736px) {
+    #user-sidebar .btn-user-info a {
+        padding: 0px !important;
+        font-size: 18px !important;
+    }
+    .ifa-list-item .item .item-content-block .title {
+        font-size: 22px !important;
+    } 
+}
+/* en 736 */
+
+
+@media only screen and (max-width: 375px) {
+    
+
+
+}

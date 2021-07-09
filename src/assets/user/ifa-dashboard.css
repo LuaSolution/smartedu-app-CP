@@ -1,0 +1,421 @@
+.ifa-dashboard-content {
+    margin: 30px 0;
+    padding: 40px 29.5px 25px 29.5px;
+    border: 1px solid #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+    width: 1078px;
+    max-width: 100%;
+}
+
+.ifa-dashboard-content .balance-course {
+    padding: 0;
+}
+
+.row-item-process-course {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.process-item {
+    flex-basis: calc(25% - 10px);
+}
+
+.ifa-dashboard-content .balance-course {
+    padding: 0 82px;
+    overflow: hidden;
+}
+
+.ifa-dashboard-content .balance-course::after {
+    content: '';
+    clear: both;
+}
+
+.ifa-dashboard-content .balance-course .balance, .ifa-dashboard-content .balance-course .course {
+    float: left;
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 40px 66px 40px 140px;
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: 45px 44.5px;
+}
+
+.ifa-dashboard-content .balance-course .balance {
+    border: 1px solid #F3C72B;
+    background-image: url(/assets/img/web/dashboard/4.png);
+}
+
+.ifa-dashboard-content .balance-course .course {
+    border: 1px solid #16671E;
+    margin-left: 30px;
+    background-image: url(/assets/img/web/dashboard/5.png);
+}
+
+.ifa-dashboard-content .balance-course .balance-course-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #193769;
+}
+
+.ifa-dashboard-content .balance-course .number {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+}
+
+.ifa-dashboard-content .balance-course .balance .number {
+    color: #F3C72B;
+}
+
+.ifa-dashboard-content .balance-course .course .number {
+    color: #16671E
+}
+
+.ifa-dashboard-content .internal-board {
+    padding: 40px 50px;
+    width: 1078px;
+    max-width: 100%;
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.1);
+    border: 1px solid #E1E5F1;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.internal-board .board-header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ifa-dashboard-block .title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #193769;
+    position: relative;
+}
+
+.ifa-dashboard-block .title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #CC001B;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    width: 120px;
+    height: 5px;
+}
+
+.ifa-wish-list {
+    margin-top: 60px;
+}
+
+.internal-board .board-header .read-more, .ifa-wish-list .board-header .read-more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #4063E0;
+    background-image: url(/assets/img/web/dashboard/6.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+    padding-right: 30px;
+}
+
+.ifa-wish-list .board-header .read-more {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #4063E0;
+    background-image: url(/assets/img/web/dashboard/6.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+    padding-right: 30px;
+}
+
+.internal-board .list-board .item {
+    padding-top: 30px;
+    border-left: 1px dashed #4063E0;
+}
+
+.internal-board .list-board .item:first-child {
+    margin-top: 40px;
+    padding-top: 0;
+}
+
+.internal-board .list-board .item .item-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: #4063E0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.internal-board .list-board .item .item-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #4063E0;
+    position: relative;
+    padding-left: 20px;
+    display: block;
+}
+
+.internal-board .list-board .item .item-content {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #676E86;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+/* list course */
+
+.ifa-continue-course {
+    max-width: 1078px;
+}
+
+.ifa-continue-course .title {
+    margin-top: 60px;
+}
+
+.ifa-continue-course .list-process-course {
+    padding-top: 50px;
+}
+
+.list-wish-list {
+    margin-top: 60px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.list-wish-list::after {
+    content: '';
+    clear: both;
+}
+
+.ifa-wish-list .board-header {
+    position: relative;
+}
+
+.ifa-user-left .list-link .link:hover {
+    background: #4063E0;
+    color: #fff;
+    transition: .2s ease-in;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1411px) {
+    .ifa-dashboard-content .balance-course {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1327px) {
+    .ifa-dashboard-content .balance-course {
+        padding: 0;
+    }
+    .ifa-dashboard-content .balance-course .course {
+        float: right;
+    }
+    .ifa-dashboard-content .balance-course .balance, .ifa-dashboard-content .balance-course .course {
+        /* padding: 40px 40px 40px 150px; */
+        background-position: 32px 44.5px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1121px) {
+    .ifa-dashboard-content .balance-course .balance, .ifa-dashboard-content .balance-course .course {
+        padding: 40px 20px 40px 130px;
+        background-position: 20px 44.5px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1045px) {
+    .ifa-dashboard-content .balance-course .balance, .ifa-dashboard-content .balance-course .course {
+        padding: 40px 10px 40px 120px;
+        background-position: 10px 44.5px;
+    }
+    .ifa-dashboard-content .balance-course .balance-course-title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1005px) {
+    .ifa-dashboard-content .balance-course .balance, .ifa-dashboard-content .balance-course .course {
+        padding: 40px 66px 40px 140px;
+        background-position: 75px 44.5px;
+        margin: 0;
+        float: none;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ifa-dashboard-content .balance-course {
+        padding: 0;
+    }
+    .ifa-dashboard-content .balance-course .balance, .ifa-dashboard-content .balance-course .course {
+        padding: 40px 10px 40px 120px;
+        background-position: 30px 44.5px;
+        float: none;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        background-size: 65px 65px;
+    }
+    .ifa-dashboard-content .balance-course .number {
+        overflow: hidden;
+        font-size: 35px;
+    }
+    .ifa-dashboard-content {
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .ifa-dashboard-content .balance-course .balance-course-title {
+        font-size: 20px;
+        -webkit-line-clamp: 1;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .ifa-dashboard-block .title {
+        font-size: 24px;
+    }
+    .ifa-dashboard-content .internal-board {
+        padding: 40px 20px;
+    }
+    .internal-board .board-header .read-more, .ifa-wish-list .board-header .read-more {
+        position: unset;
+        display: block;
+        margin-top: 20px;
+        text-align: right;
+    }
+    .ifa-wish-list {
+        margin-top: 50px;
+    }
+}
+
+/* end 991 */
+
+@media only screen and (max-width: 991px) {
+    .ifa-dashboard-content .balance-course .balance, .ifa-dashboard-content .balance-course .course {
+        padding: 10px 10px 10px 10px;
+        background-size: 0px 65px;
+    }
+    .ifa-dashboard-content .internal-board {
+        margin-top: 24px;
+    }
+    .ifa-dashboard-block .title::after {
+        border-radius: 10px;
+        width: 100px;
+        height: 3px;
+    }
+    .internal-board .list-board .item .item-title {
+        font-size: 18px;
+    }
+    .internal-board .list-board .item:first-child {
+        margin-top: 16px;
+    }
+    .internal-board .list-board .item .item-title::before {
+        top: 10px;
+    }
+    .internal-board .list-board .item {
+        padding-top: 8px;
+    }
+    .internal-board .list-board .item .item-title {
+        padding-left: 10px;
+    }
+    .ifa-continue-course .title {
+        margin-top: 36px;
+    }
+    .ifa-continue-course .list-process-course {
+        padding-top: 24px;
+    }
+    .process-item .img-block img {
+        width: 100%;
+    }
+    .process-item {
+        max-width: calc(100% - 10px);
+    }
+    .process-item .process-bar {
+        padding: 0px 15px 50px 15px;
+    }
+    .list-wish-list {
+        margin-top: 48px;
+    }
+    .course-item {
+        margin-top: 0px;
+    }
+    .course-item .content .rate-wrapper .rate::after {
+        content: '';
+        top: 8px;
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .internal-board .board-header  {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    .internal-board .title
+    {
+        font-size: 20px;
+    }
+    .internal-board .board-header a
+    {
+        align-self: center;
+        font-weight: bold;
+    }
+    .ifa-dashboard-content .balance-course .balance, .ifa-dashboard-content .balance-course .course
+    {
+        text-align: center;
+    }
+    .ifa-dashboard-block .title::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+    }
+    .internal-board .board-header .read-more, .ifa-wish-list .board-header .read-more {
+        position: unset;
+        display: block;
+        margin-top: 0px;
+        text-align: right;
+    }
+    .internal-board .board-header .read-more, .ifa-wish-list .board-header .read-more {
+        font-weight: bold;
+    }
+}

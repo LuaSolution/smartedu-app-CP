@@ -1,0 +1,1774 @@
+.ifa-video-block::before, .ifa-method-block::before, .ifa-course-block::before, .list-course-block .image.best-seller::before, .list-course-block .content .rate::after, .list-course-block .content .rate-wrapper::after, .ifa-category-block::before, .ifa-category-block::after, .ifa-connect-pro-block::before, .ifa-our-pro-block .top-lg-text::after, .ifa-our-pro-block .content .position::before, .ifa-our-pro-block .content .company::before, .ifa-share-block .item .title::after, .ifa-share-block::before, .ifa-partner-block .top-lg-text::after, .ifa-news-block::after, .ifa-news-elearning::after, .ifa-our-pro-block .content .description::before, .ifa-video-block::after, .ifa-elearning-block::after, .ifa-modal.modal .modal-dialog::before, .ifa-modal.modal .modal-dialog::after {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.ifa-video-block-content .header-content, .ifa-list-item .item .item-content-block, .ifa-method-block-content .item .content, .list-course-block .content .description, .ifa-connect-pro-block ul li, .ifa-our-pro-block .content .description, .ifa-share-block .item .description, .ifa-news-block .description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.ifa-body-wrapper {
+    margin-bottom: 80px;
+}
+
+.ifa-video-block {
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    min-height: 881px;
+    position: relative;
+    padding: 50px 0 0 0 ;
+}
+
+.ifa-video-block .img iframe {
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.ifa-video-block::before {
+    background-image: url(/assets/img/web/home/0.png);
+    width: 135px;
+    height: 110px;
+    top: 36.13px;
+    left: 0;
+}
+
+.ifa-video-block::after {
+    background-image: url(/assets/img/web/home/2.png);
+    width: 168px;
+    height: 110px;
+    bottom: 100px;
+    right: 0;
+}
+
+.ifa-video-block-content {
+    padding: 80px 0;
+    text-align: right;
+}
+
+.ifa-video-block-content .btn-dang-ky-tu-van:hover {
+    background-color: #CC001B;
+}
+
+.ifa-video-block-content .header-title {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 72.8px;
+    margin-bottom: 34px;
+    text-align: left;
+}
+
+.ifa-video-block-content .header-content {
+    color: #E5EAFA;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+
+.btn-dang-ky-tu-van, .btn-dang-ky-tu-van:hover {
+    cursor: pointer;
+    border: 1px solid var(--nenE);
+    background-color: #fff;
+    color: #676E86;
+    padding: 18px 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    background-image: url(/assets/img/web/home/55.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 225px;
+    height: 61px;
+    background-position: 170px 18px;
+    text-align: left;
+    transition: 0.1s ease-in;
+    outline: none;
+}
+
+.btn-dang-ky-tu-van-block {
+    margin-top: 54px;
+}
+
+.btn-dang-ky-tu-van img {
+    margin-left: 10px;
+}
+
+.btn-dang-ky-tu-van:hover {
+    background-color: #193769;
+    color: #fff;
+    border: 1px solid transparent;
+    background-image: url(/assets/img/web/home/57.svg);
+}
+
+.ifa-video-block-content img {
+    max-width: 100%;
+}
+
+.ifa-why-block {
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    position: relative;
+    background-position-y: 200px;
+}
+
+.ifa-why-block .btn-dang-ky-tu-van, .ifa-course-block .btn-dang-ky-tu-van {
+    margin: auto;
+}
+
+.ifa-course-block .btn-dang-ky-tu-van {
+    width: 181px;
+    background-position: 125px 18px;
+}
+
+.ifa-why-block::after {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/img/web/home/4.png);
+    width: 112px;
+    height: 119px;
+    bottom: 125px;
+    left: 0;
+}
+
+.top-small-text {
+    color: #CC001B;
+    line-height: 150%;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 15px;
+}
+
+.top-small-text::after {
+    content: '';
+    height: 3px;
+    width: 50px;
+    background-color: #193769;
+    position: absolute;
+    bottom: 7px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.top-lg-text {
+    color: #193769;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-left: 15px;
+}
+
+.ifa-why-block-content {
+    padding: 80px 0;
+}
+
+.ifa-why-block-content .why-item {
+    margin-top: 60px;
+}
+
+.ifa-list-item {
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+}
+
+.ifa-why-block {
+    background-position-y: 243px;
+}
+
+.ifa-list-item .item {
+    text-align: center;
+    max-width: 100%;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.ifa-list-item .why-item:nth-child(odd) .item {
+    background: #193769;
+}
+
+.ifa-list-item .why-item .item .item-img-block::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.ifa-list-item .why-item:nth-child(even) .item {
+    background: #CC001B;
+}
+
+.ifa-list-item .why-item:nth-child(even) {
+    padding-top: 40px;
+}
+
+.ifa-list-item .item .item-img-block {
+    -webkit-border-top-left-radius: 9px;
+    -webkit-border-top-right-radius: 9px;
+    -moz-border-radius-topleft: 9px;
+    -moz-border-radius-topright: 9px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    position: relative;
+}
+
+.ifa-list-item .item .item-img-block img {
+    width: 100%;
+}
+
+.ifa-list-item .item .item-content-block-wrapper {
+    padding: 40px 15px;
+}
+
+.ifa-list-item .item .item-content-block {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+}
+
+.ifa-list-item .item .item-content-block .title {
+    display: block;
+    text-align: center;
+    color: #193769;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin: 20px 0;
+}
+
+.ifa-list-item .item .item-content-block .content {
+    display: block;
+    text-align: center;
+    color: #333333;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-bottom: 20px;
+}
+
+.btn-dang-ky-tu-van-why-block {
+    margin-top: 60px;
+    text-align: center;
+    padding: 18px 30px;
+}
+
+.ifa-elearning-block-content {
+    position: relative;
+}
+
+.ifa-elearning-block {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.ifa-elearning-block::after {
+    background-image: url(/assets/img/web/home/5.png);
+    width: 302px;
+    height: 198px;
+    bottom: -100px;
+    right: 0;
+    z-index: -1;
+}
+
+.ifa-elearning-block-content .ifa-list-item {
+    margin-top: 60px;
+    background: #fff;
+    margin-bottom: 80px;
+}
+
+.ifa-elearning-block .item {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ifa-elearning-block .ifa-list-item .item .item-content-block {
+    color: #333333;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+.ifa-elearning-block .ifa-list-item .item .item-content-block-wrapper {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.ifa-elearning-block .ifa-list-item .item .item-content-block .title {
+    margin: 25px 0 0 0;
+}
+
+.ifa-method-block-content .ifa-list-item {
+    margin-top: 60px;
+}
+
+.ifa-method-block-content .top-small-text::after {
+    background-color: #CC001B;
+}
+
+.ifa-method-block-content .top-lg-text {
+    color: #fff;
+}
+
+.ifa-method-block {
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.ifa-method-block::before {
+    background-color: #193769;
+    width: 100%;
+    height: 340px;
+    top: 0;
+    left: 0;
+}
+
+.ifa-method-block-content {
+    padding-top: 50px;
+    position: relative;
+}
+
+.ifa-method-block-content .ifa-card {
+    position: absolute;
+}
+
+.ifa-course-block {
+    position: relative;
+}
+
+.ifa-course-block .list-course-block {
+    margin-top: 60px;
+}
+
+.ifa-course-block-content {
+    margin-top: 80px;
+    max-width: 1178px;
+}
+
+.list-course-block .carousel-control-next {
+    right: 7px;
+}
+
+.ifa-course-block-content .top-small-text::after {
+    background-color: #CC001B;
+}
+
+.list-course-block .image img {
+    max-width: 100%;
+}
+
+.list-course-block .big-item {
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* .list-course-block .image.best-seller::before {
+    background-image: url(/assets/img/web/home/9.png);
+    width: 67px;
+    height: 50px;
+    top: -12px;
+    left: 20px;
+} */
+
+.list-course-block .image .like-icon {
+    position: absolute;
+    background-image: url(/assets/img/web/home/58.png);
+    width: 38px;
+    height: 38px;
+    bottom: -19px;
+    right: 28px;
+    cursor: pointer;
+}
+
+.list-course-block .content {
+    padding: 30px 65px 30px 65px;
+}
+
+.list-course-block .content .title {
+    font-size: 32px;
+    line-height: 41.6px;
+    font-weight: 700;
+}
+
+.list-course-block .content .description-wrapper {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #C2C7D8;
+}
+
+.list-course-block .content .description {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+    -webkit-line-clamp: 2;
+    margin-top: 15px;
+    color: #676E86;
+    letter-spacing: 0.02em;
+}
+
+.list-course-block .big-item .image {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.list-course-block .content .price {
+    margin-top: 15px;
+}
+
+.list-course-block .content .price .sell {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #676E86;
+}
+
+.list-course-block .content .price .sell .number {
+    color: #CC001B;
+}
+
+.list-course-block .content .price .origin {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #676E86;
+    text-decoration: line-through;
+    margin-left: 30px;
+}
+
+.list-course-block .content .rate-wrapper .rate {
+    width: 78px;
+    height: 40px;
+    color: #fff;
+    background-color: #F88417;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.list-course-block .content .rate-wrapper .rate::after {
+    background-image: url(/assets/img/web/home/10.png);
+    width: 13px;
+    height: 13px;
+    top: 13.5px;
+    right: 17px;
+}
+
+.list-course-block .content .rate-wrapper {
+    position: relative;
+}
+
+.list-course-block .list-small-item .content {
+    padding: 30px 20px 0 20px;
+}
+
+.list-course-block .list-small-item {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.list-course-block .list-small-item .item {
+    max-width: calc(25% - 22.5px);
+    background-color: #fff;
+    width: 270px;
+    display: inline-block;
+    margin: -0.125px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 12px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.list-course-block .list-small-item .item:nth-child(4n-3) {
+    margin-left: 0;
+}
+
+.list-course-block .list-small-item .item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.list-course-block .list-small-item .item .image {
+    text-align: center;
+    position: relative;
+}
+
+.list-course-block .list-small-item .content .title {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.list-course-block .list-small-item .content .description {
+    font-size: 16px;
+    line-height: 25.6px;
+    margin-top: 5px;
+    -webkit-line-clamp: 1;
+}
+
+.list-course-block .list-small-item .content .price {
+    margin-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #A7ABB9;
+}
+
+.list-course-block .list-small-item .content .price .sell {
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.list-course-block .list-small-item .content .price .origin {
+    font-size: 12px;
+    line-height: 16.8px;
+    margin-left: 10px;
+}
+
+.list-course-block .list-small-item .content .rate-wrapper .rate {
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 68px;
+    height: 30px;
+    padding: 0 0 0 10px;
+}
+
+.list-course-block .list-small-item .content .rate-wrapper .rate::after {
+    background-image: url(/assets/img/web/home/10b.png);
+    width: 12px;
+    height: 12px;
+    top: 9px;
+    right: 17px;
+}
+
+.list-course-block .carousel-control-prev, .list-course-block .carousel-control-next, .ifa-our-pro-block .carousel-control-prev, .ifa-our-pro-block .carousel-control-next {
+    width: 54px;
+    height: 54px;
+    top: calc(50% - 27px);
+}
+
+.list-course-block .carousel-control-prev, .ifa-our-pro-block .carousel-control-prev {
+    left: -1px;
+}
+
+.ifa-our-pro-block .carousel-control-next {
+    right: 0;
+}
+
+.list-course-block .carousel-control-prev-icon, .list-course-block .carousel-control-next-icon, .ifa-our-pro-block .carousel-control-prev-icon, .ifa-our-pro-block .carousel-control-next-icon {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-course-block .carousel-control-prev-icon, .ifa-our-pro-block .carousel-control-prev-icon {
+    background-image: url(/assets/img/web/home/41.png);
+}
+
+.list-course-block .carousel-control-next-icon, .ifa-our-pro-block .carousel-control-next-icon {
+    background-image: url(/assets/img/web/home/42.png);
+}
+
+.list-course-block .list-small-item-mobile {
+    display: none;
+}
+
+.ifa-category-block {
+    max-width: 1370px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ifa-category-block .top-lg-text {
+    padding-left: 0px;
+}
+
+.ifa-category-block .ifa-list-item {
+    margin-top: 14px;
+}
+
+.ifa-category-block .top-lg-text {
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 700;
+    color: #193769;
+    position: relative;
+}
+
+.ifa-category-block .top-lg-text::after {
+    content: '';
+    background-color: #CC001B;
+    width: 120px;
+    height: 5px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.ifa-category-block .ifa-block-content {
+    padding-top: 81px;
+}
+
+.ifa-category-block .ifa-list-item .item {
+    text-align: center;
+    font-size: 32px;
+    line-height: 41.6px;
+    font-weight: 700;
+    color: #193769;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 60px;
+    background-size: 90px 91px;
+    padding: 131px 40px 40px 40px;
+    background-position: center 40px;
+    background-repeat: no-repeat;
+}
+
+.ifa-category-block .item .title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+}
+
+.ifa-category-block .ifa-list-item .item:hover {
+    color: #fff;
+    background-color: #CC001B;
+}
+
+.ifa-connect-pro-block {
+    margin-top: 160px;
+    position: relative;
+}
+
+.ifa-connect-pro-block .btn-dang-ky-tu-van-why-block {
+    text-align: left;
+    margin-top: 55px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ifa-connect-pro-block ul li:first-child {
+    margin-top: 10px;
+}
+
+.ifa-connect-pro-block .btn-dang-ky-tu-van-why-block .btn-dang-ky-tu-van {
+    background-color: #193769;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 18px 30px;
+    background-image: url(/assets/img/web/home/57.svg);
+}
+
+.ifa-connect-pro-block .btn-dang-ky-tu-van-why-block .btn-dang-ky-tu-van:hover {
+    color: #fff;
+    background-color: #CC001B;
+    background-image: url(/assets/img/web/home/57.svg);
+}
+
+.ifa-connect-pro-block::before {
+    background-image: url(/assets/img/web/home/16.png);
+    width: 148px;
+    height: 118px;
+    right: 0;
+    top: 10px;
+}
+
+.ifa-connect-pro-block .ifa-list-item {
+    margin-top: 60px;
+}
+
+.ifa-connect-pro-block ul {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.ifa-connect-pro-block ul li {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #363E57;
+    position: relative;
+    margin-top: 30px;
+    letter-spacing: 0.01em;
+    -webkit-line-clamp: 1;
+}
+
+.ifa-connect-pro-block ul li img {
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.ifa-connect-pro-block .btn-connect-pro {
+    display: inline-block;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: auto;
+    background: #193769;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.ifa-connect-pro-block .item-wrapper:nth-child(2n) {
+    padding-left: 58px;
+}
+
+.ifa-our-pro-block .top-lg-text {
+    position: relative;
+}
+
+.ifa-our-pro-block .ifa-block-content {
+    margin-top: 160px;
+}
+
+.ifa-our-pro-block .top-lg-text::after {
+    margin-bottom: 20px;
+    background-color: #CC001B;
+    width: 120px;
+    height: 5px;
+    bottom: -30px;
+    left: 0;
+}
+
+.ifa-our-pro-block .list-our-pro {
+    margin-top: 60px;
+}
+
+.ifa-our-pro-block .list-our-pro-mobile {
+    display: none;
+}
+
+.ifa-our-pro-block .list-our-pro .item {
+    max-width: 370px;
+    background: #fff;
+    text-align: center;
+    padding: 25px;
+    display: inline-block;
+    box-shadow: 2px 6px 30px rgb(78 82 92 / 10%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.ifa-our-pro-block .list-our-pro .item:hover {
+    box-shadow: 2px 6px 30px rgb(78 82 92 / 20%);
+    transform: scaleY(1.01);
+}
+
+.ifa-our-pro-block .list-our-pro .item:nth-child(3n+2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ifa-our-pro-block .content .name {
+    color: #193769;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 17px;
+}
+
+.ifa-our-pro-block .content .position, .ifa-our-pro-block .content .company {
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    padding-left: 35px;
+    margin-bottom: 0;
+}
+
+.ifa-our-pro-block .content .position {
+    color: #676E86;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 600;
+}
+
+.ifa-our-pro-block .content .position::before {
+    width: 25px;
+    height: 25px;
+    top: calc(50% - 12.5px);
+    left: 0;
+}
+
+.ifa-our-pro-block .content .company {
+    color: #363E57;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.ifa-our-pro-block .content .company::before {
+    width: 22px;
+    height: 24px;
+    top: calc(50% - 12px);
+    left: 0;
+}
+
+.ifa-our-pro-block .content .description {
+    color: #363E57;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    margin-top: 32px;
+    position: relative;
+    -webkit-line-clamp: 5;
+}
+
+.ifa-our-pro-block .content .description::before {
+    background-color: #CC001B;
+    width: 70px;
+    height: 5px;
+    top: -16px;
+    left: calc(50% - 35px);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.ifa-share-block {
+    margin-top: 80px;
+    position: relative;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.ifa-share-block .item {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ifa-share-block .item .title {
+    color: #193769;
+    font-size: 32px;
+    line-height: 41.6px;
+    font-weight: 700;
+    margin-top: 20px;
+    position: relative;
+}
+
+.ifa-share-block .btn-dang-ky-tu-van {
+    margin: auto;
+    width: 216px;
+}
+
+.ifa-share-block .item .description {
+    color: #363E57;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    margin-top: 40px;
+    -webkit-line-clamp: 4;
+}
+
+.ifa-share-block .btn-dang-ky-tu-van-block {
+    text-align: center;
+    margin-top: 78px;
+}
+
+.ifa-share-block .item .title::after {
+    background-color: #CC001B;
+    width: 50px;
+    height: 3px;
+    bottom: -20px;
+    left: calc(50% - 25px);
+}
+
+.ifa-share-block::before {
+    background-image: url(/assets/img/web/home/20.png);
+    width: 126px;
+    height: 118px;
+    top: 0;
+    left: 0;
+}
+
+.ifa-news-elearning {
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.ifa-news-block .list-news {
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.ifa-news-block .item {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.ifa-news-block .item .img img {
+    max-width: 100%;
+}
+
+.ifa-news-block .status-wrapper .pos, .ifa-news-block .status-wrapper .status {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.6px;
+}
+
+.ifa-news-block .status-wrapper .pos {
+    color: #A7ABB9;
+}
+
+.ifa-news-block .item .content {
+    padding: 25px;
+}
+
+.ifa-news-block .status-wrapper .status.live {
+    color: #208A06;
+}
+
+.ifa-news-block .status-wrapper .status.comming {
+    color: #F49302;
+}
+
+.ifa-news-block .title {
+    color: #091230;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.ifa-news-block .description {
+    color: #676E86;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    margin-top: 5px;
+    -webkit-line-clamp: 3;
+}
+
+.ifa-news-block .btn-dang-ky-tu-van-block {
+    text-align: center;
+    margin-top: 78px;
+}
+
+.ifa-news-block .btn-dang-ky-tu-van-block .btn-dang-ky-tu-van {
+    margin: auto;
+    width: 187px;
+    background-position: 130px 18px;
+}
+
+.ifa-news-block::after {
+    background-image: url(/assets/img/web/home/21.png);
+    width: 164px;
+    height: 118px;
+    bottom: 65px;
+    right: 0;
+    z-index: 0;
+}
+
+.ifa-news-block {
+    position: relative;
+}
+
+.ifa-partner-block {
+    margin-top: 160px;
+    position: relative;
+}
+
+.ifa-partner-block .list-logo, .ifa-partner-block .list-logo .item {
+    margin-top: 30px;
+}
+
+.ifa-news-elearning::after {
+    background-image: url(/assets/img/web/home/51.png);
+    width: 164px;
+    height: 118px;
+    bottom: -60px;
+    left: 0;
+}
+
+/* For modal */
+
+.ifa-modal .form-page {
+    background-color: #fff;
+    padding: 50px 116px 70px 156px;
+}
+
+.ifa-modal .form-page .form-wrapper {
+    margin-top: 0;
+}
+
+.ifa-modal .ifa-close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    z-index: 10;
+    background-image: url(/assets/img/web/home/59.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.ifa-modal .ifa-close-modal:active, .ifa-modal .ifa-close-modal:focus {
+    background: none;
+    border: none;
+}
+
+.ifa-modal .form-page::after {
+    display: none;
+}
+
+.ifa-modal .modal-body {
+    padding: 0;
+}
+
+.ifa-modal .form-page .form-wrapper {
+    box-shadow: none;
+}
+
+.ifa-modal .form-page .form-wrapper .title {
+    padding-left: 20px;
+    border-left: 5.59px solid #CC001B;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #193769;
+}
+
+.ifa-modal .form-page .form-wrapper .sub-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #676E86;
+    margin-top: 10px;
+}
+
+.ifa-modal .form-wrapper .ifa-form-control .label {
+    margin-top: 30px;
+}
+
+.ifa-modal .form-wrapper .ifa-form-control.error .input-group .clear-input {
+    right: 20px;
+}
+
+.ifa-modal .input-group:has(textarea) {
+    margin-top: 20px;
+}
+
+.ifa-modal .ifa-popup-close-btn {
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    right: 7.8px;
+    top: 7.8px;
+    z-index: 1;
+    border: none;
+    background-repeat: no-repeat;
+    background-color: unset;
+}
+
+.ifa-modal.modal .modal-dialog {
+    max-width: 727px;
+    background: #fff;
+}
+
+.ifa-modal.modal .modal-dialog::before {
+    background-image: url(/assets/img/web/home/61.png);
+    width: 100px;
+    height: 67px;
+    background-repeat: no-repeat;
+    top: 20px;
+    left: 27px;
+    z-index: 1;
+}
+
+.ifa-modal.modal .modal-dialog::after {
+    background-image: url(/assets/img/web/home/60.png);
+    width: 101px;
+    height: 67px;
+    background-repeat: no-repeat;
+    bottom: 27px;
+    right: 7px;
+    z-index: 1;
+}
+
+.ifa-modal .ifa-form-control-no-title {
+    margin-top: 20px;
+}
+
+.ifa-modal .ifa-form-control-no-title textarea, .ifa-modal .ifa-form-control-no-title textarea:focus {
+    padding: 20px 24px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    /* color: #C2C7D8; */
+    border: 1px solid #C2C7D8;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+}
+
+.ifa-method-block .ifa-list-item .item-wrapper {
+    display: flex;
+}
+
+.ifa-method-block .ifa-list-item .item-wrapper .icon {
+    margin: 0 auto;
+}
+
+.ifa-method-block .ifa-list-item .item-wrapper .title, .ifa-method-block .ifa-list-item .item-wrapper .sub-title, .ifa-method-block .ifa-list-item .item-wrapper .content {
+    text-align: center;
+}
+
+.t-css .item-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.ifa-method-block .ifa-list-item .item-wrapper {
+    background-size: cover;
+    background-position: center;
+}
+
+/* end Desktop */
+
+@media only screen and (max-width: 1366px) {
+    .ifa-video-block {
+        background-size: cover;
+        min-height: 684px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .ifa-video-block-content .header-title {
+        font-size: 41px;
+    }
+    .ifa-video-block {
+        background-size: cover;
+        min-height: 635px;
+    }
+    .ifa-why-block-content {
+        padding: 50px 0;
+    }
+    .top-lg-text {
+        font-size: 40px;
+    }
+    .ifa-why-block-content .why-item .t-css
+    {
+        left: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+    .ifa-list-item .item .item-content-block .title {
+        font-size: 30px;
+    }
+    .ifa-list-item .item .item-content-block-wrapper {
+        padding: 20px 15px;
+    }
+    .btn-dang-ky-tu-van-why-block {
+        margin-top: 30px;
+    }
+    .btn-dang-ky-tu-van-block {
+        margin-top: 40px;
+    }
+    .ifa-method-block-content .t-css
+    {
+        font-size: 17px !important;
+    }
+    .method-box-item
+    {
+        padding: 20px 10px 20px 10px!important;
+    }
+    .method-box-item .content
+    {
+        margin-top: 10px;
+
+    }
+    .ifa-connect-pro-block {
+        margin-top: 80px;
+    }
+    .ifa-connect-pro-block .ifa-list-item {
+        margin-top: 40px;
+    }
+    .ifa-share-block {
+        margin-top: 60px; 
+        padding-top: 0px;
+        margin-bottom: 60px;
+    }
+    .ifa-share-block .btn-dang-ky-tu-van-block {
+        margin-top: 40px;
+    }
+    .ifa-news-block .list-news {
+        margin-top: 40px;
+    }
+    .ifa-partner-block {
+        margin-top: 80px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1119px) {
+    .ifa-video-block-content .header-content {
+        font-size: 19px;
+    }
+    .ifa-video-block-content .header-title {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ifa-video-block-content .header-title {
+        margin-bottom: 24px;
+    }
+    .ifa-why-block::after, .ifa-elearning-block::after, .ifa-course-block::before, .ifa-video-block::before, .ifa-video-block::after, .ifa-connect-pro-block::before, .ifa-our-pro-block .list-our-pro, .ifa-share-block::before, .ifa-news-block::after, .ifa-news-elearning::after, .ifa-category-block::after {
+        display: none;
+    }
+    .ifa-why-block-content .why-item {
+        margin-top: 32px;
+    }
+    .ifa-list-item .item, .ifa-list-item .item .item-img-block img {
+        width: 100%;
+    }
+    .ifa-video-block-content {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .ifa-video-block .img {
+        margin-top: 50px;
+    }
+    .ifa-video-block-content .header-title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .ifa-video-block-content .header-content {
+        font-size: 18px;
+    }
+    .top-lg-text {
+        font-size: 25px;
+    }
+    .btn-dang-ky-tu-van-why-block {
+        margin-top: 33px;
+    }
+    .btn-dang-ky-tu-van, .btn-dang-ky-tu-van:hover {
+        margin: auto;
+    }
+    .ifa-list-item {
+        margin: auto;
+    }
+    .ifa-list-item .why-item:nth-child(even) {
+        padding-top: 0;
+    }
+    .top-small-text, .top-lg-text {
+        padding: 0 10px;
+    }
+    .btn-dang-ky-tu-van-why-block {
+        margin-bottom: 0;
+    }
+    .ifa-elearning-block-content .ifa-list-item .item-wrapper {
+        padding: 30px 15px;
+    }
+    .list-course-block .content {
+        padding: 30px 30px 0 30px;
+    }
+    .list-course-block .content .rate-wrapper::after {
+        right: -41px;
+    }
+    .list-course-block .content .rate-wrapper .rate {
+        margin-bottom: 30px;
+    }
+    .list-course-block .content .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .list-course-block .content .description, .list-course-block .content .price .sell, .list-course-block .content .price .origin {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .list-course-block .list-small-item {
+        display: none;
+    }
+    .list-course-block .list-small-item-mobile, .ifa-our-pro-block .list-our-pro-mobile {
+        display: block;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .list-course-block .list-small-item-mobile .carousel-item {
+        background: #fff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 12px 10px 10px 10px;
+        width: calc(100% - 20px);
+    }
+    .list-course-block .list-small-item-mobile .image {
+        text-align: center;
+        position: relative;
+    }
+    .list-course-block .btn-dang-ky-tu-van-why-block {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .ifa-category-block .ifa-block-content {
+        padding-top: 20px;
+    }
+    .ifa-category-block .top-lg-text {
+        font-size: 25px;
+    }
+    .ifa-category-block .top-lg-text::after {
+        left: 10px;
+    }
+    .ifa-connect-pro-block {
+        margin-top: 64px;
+    }
+    .ifa-connect-pro-block .ifa-list-item {
+        margin-top: 0;
+    }
+    .list-our-pro-mobile .item {
+        width: calc(100% - 40px);
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 10px auto;
+    }
+    .ifa-share-block {
+        padding-top: 0;
+    }
+    .ifa-share-block .item {
+        padding: 0 30px 30px 30px;
+    }
+    .ifa-share-block .btn-dang-ky-tu-van-block {
+        margin-top: 20px;
+    }
+    .ifa-news-block .item {
+        width: calc(100% - 20px);
+        margin: 10px auto;
+    }
+    .ifa-news-elearning {
+        padding-top: 0;
+    }
+    .ifa-news-block .item .img {
+        text-align: center;
+    }
+    .ifa-news-block .btn-dang-ky-tu-van-block {
+        margin-top: 50px;
+    }
+    .ifa-method-block .ifa-list-item .item-wrapper {
+        text-align: center;
+        padding-left: 15px;
+        margin-top: 16px;
+    }
+    .ifa-method-block .ifa-list-item .item-wrapper img {
+        max-width: 100%;
+        height: 75%;
+    }
+    .ifa-connect-pro-block ul li {
+        text-align: left;
+    }
+    .ifa-our-pro-block .ifa-block-content {
+        margin-top: 64px;
+    }
+    .ifa-our-pro-block .top-lg-text::after {
+        left: 15px;
+    }
+    .ifa-partner-block {
+        margin-top: 50px;
+    }
+    .ifa-partner-block .list-logo .item {
+        text-align: center;
+    }
+    .ifa-video-block {
+        min-height: 450px;
+        background-size: cover;
+    }
+    .ifa-why-block-content {
+        padding: 40px 0;
+    }
+    .ifa-elearning-block-content .ifa-list-item {
+        margin-top: 16px;
+    }
+    .ifa-elearning-block-content {
+        margin-bottom: 40px;
+    }
+    .ifa-course-block-content {
+        margin-top: 40px;
+    }
+    .ifa-course-block .list-course-block {
+        margin-top: 40px;
+    }
+    .ifa-category-block {
+        margin-top: 40px;
+    }
+    .ifa-category-block .top-lg-text::after {
+        bottom: -8px;
+    }
+    .ifa-category-block .ifa-list-item .item {
+        margin-top: 32px;
+    }
+    .ifa-category-block .top-lg-text {
+        font-size: 28px;
+    }
+    .ifa-category-block .item .title {
+        font-size: 24px;
+    }
+    .ifa-connect-pro-block .ifa-list-item {
+        margin-top: 32px;
+    }
+    .ifa-method-block-content .ifa-list-item {
+        margin-top: 20px;
+    }
+    .ifa-connect-pro-block ul li {
+        line-height: 21px;
+    }
+    .ifa-connect-pro-block .btn-dang-ky-tu-van-why-block {
+        margin-top: 16px;
+    }
+    .ifa-share-block .item .title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .ifa-news-elearning {
+        margin-top: 64px;
+    }
+    .ifa-news-block .list-news {
+        margin-top: 32px;
+    }
+    .ifa-connect-pro-block ul li {
+        line-height: 25px;
+    }
+    .ifa-list-item .item .item-content-block .title {
+        font-size: 23px;
+    }
+    .ifa-elearning-block {
+        margin-bottom: 40px;
+    }
+    .ifa-elearning-block-content .ifa-list-item {
+        margin-bottom: 0px;
+    }
+    .ifa-elearning-block .t-css{
+        margin-top: -25px;
+    }
+
+}
+
+/* end 991 */
+@media only screen and (max-width: 812px) {
+    
+    .ifa-video-block {
+        min-height: 520px;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    
+    .ifa-video-block .img {
+        margin-top: 20px;
+    }
+    .ifa-video-block-content .header-title {
+        margin-bottom: 16px;
+    }
+    .ifa-video-block {
+        min-height: 630px;
+        background-size: cover;
+    }
+    .ifa-why-block-content {
+        padding: 48px 0;
+    }
+    .ifa-elearning-block .ifa-block-content {
+        padding-top: 0px;
+    }
+    .ifa-list-item .item .item-content-block .title {
+        font-size: 21px;
+    }
+    .ifa-elearning-block-content {
+        margin-bottom: 30px;
+    }
+    .ifa-elearning-block .btn-dang-ky-tu-van-block {
+        margin-top: 0px;
+    }
+    .ifa-elearning-block-content .ifa-list-item {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .ifa-method-block-content {
+        margin-top: 50px;
+    }
+    .ifa-connect-pro-block .ifa-block-content {
+        padding-top: 0px;
+    }
+    .ifa-connect-pro-block .ifa-list-item {
+        margin-top: 0px;
+    }
+    .ifa-connect-pro-block ul li {
+        margin-top: 15px;
+    }
+    .ifa-share-block .ifa-block-content {
+        padding-top: 0px;
+    }
+    .ifa-connect-pro-block .btn-dang-ky-tu-van-why-block {
+        margin-top: 50px;
+    }
+    .ifa-share-block .item {
+        display: flex;
+        flex-direction: column;
+    }
+    .ifa-share-block .item .description {
+        max-width: 70%;
+        align-self: center;
+    }
+    .ifa-share-block .item {
+        margin-top: 20px;
+    }
+    .ifa-news-elearning {
+        margin-top: 0px;
+    }
+    .ifa-news-elearning .ifa-block-content {
+        padding-top: 0px;
+    }
+    .ifa-partner-block {
+        margin-top: 50px;
+    }
+    .ifa-method-block-content .icon {
+        background-image: url(/static/media/knowledge.88188c16.svg);
+        width: 56px;
+        height: 56px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    .top-lg-text {
+        font-size: 24px;
+    }
+    .ifa-news-block .list-news {
+        margin-top: 24px;
+    }
+    .ifa-news-block .item {
+        width: calc(100% - 0px);
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .ifa-list-item .item .item-content-block .title {
+        font-size: 24px;
+        transition: .3s ease-in;
+    }
+    /* .ifa-dashboard-block .title::after {
+        bottom: 0px;
+        left:15px;
+    } */
+}
+
+@media only screen and (max-width: 414px) {
+    .ifa-video-block {
+        min-height: 670px;
+    }
+    .ifa-why-block-content {
+        padding: 30px 0;
+    }
+    .ifa-share-block .item .description {
+        max-width: 80%;
+    }
+    .ifa-news-elearning {
+        margin-top: 0px;
+    }
+    .ifa-news-block .list-news {
+        margin-top: 30px;
+    }
+    .top-small-text {
+        margin-bottom: 10px;
+    }
+    .ifa-list-item .item .item-content-block .title {
+        font-size: 20px;
+        margin: 10px 0 0 0;
+    }
+    .ifa-elearning-block-content .ifa-list-item {
+        margin-top: 32px;
+    }
+    .ifa-elearning-block-content .ifa-list-item .item-wrapper {
+        padding: 0px 15px 30px 15px;
+    }
+    .ifa-elearning-block-content {
+        margin-bottom: 0px;
+    }
+    .ifa-method-block-content .ifa-list-item {
+        margin-top: 18px;
+    }
+    .ifa-why-block .ifa-list-item .item .item-content-block {
+        padding: 0px;
+    }
+    .ifa-why-block .ifa-list-item .item .item-content-block-wrapper {
+        padding: 10px 15px 16px 15px;
+    }
+    .ifa-elearning-block .ifa-list-item .item .item-content-block-wrapper {
+        padding: 10px 15px 24px 15px
+    }
+    .ifa-elearning-block-content .ifa-block-content {
+        margin: 0;
+    }
+    .iKrbGj .content {
+        font-size: 18px;
+    }
+    .list-course-block .ant-ribbon-wrapper .big-item a img {
+        max-height: 252px;
+    }
+    .list-course-block .btn-dang-ky-tu-van-why-block {
+        margin-top: 48px;
+        margin-bottom: 64px;
+    }
+    .ifa-category-block .top-lg-text {
+        line-height: 130%;
+    }
+    .ifa-category-block .top-lg-text::after {
+        height: 3px;
+        bottom: -8px;
+    }
+    .ifa-category-block .ifa-list-item .item {
+        margin-top: 10px;
+    }
+    .ifa-category-block .ifa-block-content {
+        padding-top: 48px;
+    }
+    .ifa-category-block .ifa-list-item .item {
+        font-size: 20px;
+        padding: 10px;
+        background-size: 90px 90px;
+        padding: 100px 10px 24px 10px;
+        background-position: center 16px;
+    }
+    .ifa-category-block .item .title {
+        font-size: 20px;
+    }
+    .top-small-text::after {
+        height: 3px;
+        width: 30px;
+        margin-left: 10px;
+    }
+    .ifa-course-block-content {
+        margin-top: 64px;
+    }
+    .ifa-course-block .list-course-block {
+        margin-top: 48px;
+    }
+    .ifa-connect-pro-block .btn-dang-ky-tu-van-why-block {
+        text-align: left;
+        margin-top: 48px;
+    }
+    .ifa-our-pro-block .top-lg-text::after {
+        left: 12px;
+    }
+    .ifa-our-pro-block .top-lg-text::after {
+        width: 60px;
+        height: 3px;
+        border-radius: 2px;
+    }
+    .ifa-news-elearning {
+        margin-top: 64px;
+    }
+    .ifa-news-block .btn-dang-ky-tu-van-block {
+        margin-top: 30px;
+    }
+    .ifa-partner-block {
+        margin-top: 64px;
+    }
+    .ifa-partner-block .list-logo, .ifa-partner-block .list-logo .item {
+        margin-top: 24px;
+    }
+    .ifa-body-wrapper {
+        margin-bottom: 64px;
+    }
+    .ifa-footer .block-1 .list-logo .logo-1 .txt-2 {
+        font-size: 12px;
+        line-height: 15.2px;
+    }
+    .ifa-footer {
+        padding: 64px 15px 64px 15px;
+    }
+    .btn-dang-ky-tu-van-block {
+        margin-top: 32px;
+    }
+    .ifa-list-item .item .item-content-block {
+        padding: 24px 0px;
+    }
+    .ifa-elearning-block-content .ifa-list-item .item .item-content-block {
+        padding: 0;
+    }
+    .ifa-elearning-block .ifa-list-item .item .item-content-block .title {
+        margin: 10px 0 0 0;
+    }
+    .ifa-connect-pro-block .ifa-list-item {
+        margin-top: 0px;
+    }
+    .ifa-connect-pro-block ul li:first-child {
+        margin-top: 0px;
+    }
+    .ifa-connect-pro-block ul li {
+        margin-top: 24px;
+    }
+    .ifa-modal .form-page {
+        padding: 50px 10px 70px 16px;
+    }
+    .ifa-elearning-block .ifa-elearning-block-content .ifa-list-item {
+        margin-top: 32px;
+        background: #fff;
+        margin-bottom: 18px;
+    }
+    .ifa-list-item .icon {
+        margin: 0 auto;
+    }
+    .ifa-category-block .top-lg-text {
+        padding-left: 10px;
+    }
+    .ifa-modal .form-page .form-wrapper .title {
+        font-size: 24px;
+    }
+    .top-lg-text {
+        font-size: 20px;
+    }
+    .ifa-elearning-block .t-css {
+        margin-top: -4px;
+    }
+}

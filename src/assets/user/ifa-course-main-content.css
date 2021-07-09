@@ -1,0 +1,33 @@
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #E1E5F1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #676E86;
+    border-radius: 10px;
+}
+
+.bottom {
+    margin-bottom: 80px;
+    border-top: 1px solid #eee;
+}
+
+.create-question-modal .modal-dialog {
+    max-width: 727px;
+}
+
+.new-question-modal .modal-dialog {
+    max-width: 730px;
+}
+
+.new-question-modal .modal-body {
+    padding: 0;
+}

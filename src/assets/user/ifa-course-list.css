@@ -1,0 +1,149 @@
+.list-course-filter-wrapper {
+    padding-bottom: 40px;
+}
+
+.list-course-content {
+    max-width: 1078px;
+    border: 1px solid #eee;
+    margin: 25px auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.ifa-course-list-content .process-item {
+    margin-top: 50px;
+    flex-basis: calc(25% - 10px);
+}
+
+@media only screen and (max-width: 800px) {
+    .ifa-course-list-content .process-item {
+        flex-basis: calc(100%) !important;
+    }
+}
+
+.list-course-wrapper {
+    max-width: 1020px;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 170px;
+}
+
+.list-course-filter-wrapper .search-form {
+    text-align: right;
+}
+
+.list-course-filter-wrapper .search-form input {
+    padding: 16px 14px;
+    width: 413px;
+    height: 57px;
+    padding-left: 48px;
+    background-repeat: no-repeat;
+    background-position: left 14px center;
+    background-color: #F7F7F7;
+    border: 1px solid #E1E5F1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #676E86;
+    max-width: 100%;
+}
+
+.list-course-filter-wrapper .course-name-wrapper,
+.list-course-filter-wrapper .dropdown {
+    display: inline-block;
+}
+
+.list-course-filter-wrapper .dropdown {
+    width: 262px;
+    height: 57px;
+    max-width: 100%;
+    margin-left: 30px;
+    top: -2px;
+}
+
+.list-course-filter-wrapper .dropdown .dropdown-toggle {
+    width: 100%;
+    padding: 15px 67px 15px 15px;
+    text-align: left;
+    background: #F7F7F7;
+    border: 1px solid #E1E5F1;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #091230;
+    background-repeat: no-repeat;
+    background-position: center right;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.list-course-filter-wrapper .dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.list-course-filter-wrapper .btn-secondary:not(:disabled):not(.disabled):active,
+.list-course-filter-wrapper .btn-secondary:not(:disabled):not(.disabled).active,
+.list-course-filter-wrapper .show>.btn-secondary.dropdown-toggle {
+    color: #091230;
+    background-color: #F7F7F7;
+    border-color: #E1E5F1;
+}
+
+.list-course-filter-wrapper .dropdown .dropdown-menu {
+    border: 1px solid #E1E5F1;
+    box-sizing: border-box;
+    box-shadow: 2px 6px 30px rgba(78, 82, 92, 0.1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+}
+
+.list-course-filter-wrapper .dropdown .dropdown-menu .dropdown-item {
+    height: 42px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+}
+
+.list-course-filter-wrapper .dropdown .dropdown-menu .dropdown-item:focus,
+.list-course-filter-wrapper .dropdown .dropdown-menu .dropdown-item:active,
+.list-course-filter-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #4063E0;
+    color: #fff;
+}
+
+@media(max-width: 991px) {
+    .list-course-content {
+        border: none;
+    }
+
+    .list-course-filter-wrapper .search-form {
+        text-align: center;
+    }
+
+    .list-course-filter-wrapper .course-name-wrapper,
+    .list-course-filter-wrapper .dropdown {
+        width: 90%;
+        margin: auto;
+    }
+
+    .list-course-filter-wrapper .dropdown {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 991px) {
+    .list-course-wrapper {
+        padding-bottom: 64px;
+    }
+}
