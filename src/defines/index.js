@@ -19,7 +19,7 @@ export const servicePath = 'https://api.coloredstrategies.com'
 
 export const ROOT =
   process.env.REACT_APP_LOCAL === 'true'
-    ? 'http://localhost:8000/IFA-server/'
+    ? 'http://localhost:8000/smarte-edu-server/'
     : process.env.REACT_APP_BUILD_CODE === 'CP'
     ? 'https://bestschool.vn/'
     : 'https://daotaotructuyen.net/'

@@ -17,6 +17,7 @@ import axios from 'helpers/axios'
 import { Spin, Rate, Progress, Drawer } from 'antd'
 import { NoData } from 'atoms'
 import 'assets/user/khoahoc-cp.css'
+import renderEmpty from 'antd/lib/config-provider/renderEmpty'
 
 const rand = Math.random()
 
@@ -24,34 +25,115 @@ const CoursesPage = () => {
   const [loading, setLoading] = useState(false)
   const [showFilter, setShowFilter] = useState(false)
   const [data, setData] = useState([])
-  const [categories, setCategories] = useState([
-    { id: 1, title: 'CPF Way Course' },
-    { id: 2, title: 'Standard Course' },
-    { id: 3, title: '7 Hatbits Cours' },
-    { id: 4, title: 'Essensial Skills' },
-  ])
+  const [orderBy, setOrderBy] = useState('asc')
+  const [search, setSearch] = useState('')
+  const [cgSelected, setCGSelected] = useState([])
+  const [courseGroups, setCourseGroups] = useState([])
   const [objective, setObjective] = useState([
-    { id: 1, title: 'Tất cả mọi người' },
-    { id: 2, title: 'Staff' },
-    { id: 3, title: 'DM/SM' },
-    { id: 4, title: 'AVP/GM' },
-    { id: 5, title: 'AVP/VP' },
+    { id: 1, name: 'Tất cả mọi người' },
+    { id: 2, name: 'Staff' },
+    { id: 3, name: 'DM/SM' },
+    { id: 4, name: 'AVP/GM' },
+    { id: 5, name: 'AVP/VP' },
   ])
 
   useEffect(() => {
+    fetchCourseGroup()
     fetchData()
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
-  const fetchData = () => {
+  useEffect(() => {
+    fetchData(true)
+  }, [cgSelected, orderBy, search]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const fetchCourseGroup = () => {
+    axios.get('admin/course-groups/all').then((res) => {
+      setCourseGroups(res.data)
+    })
+  }
+
+  const fetchData = (reset = false) => {
     setLoading(true)
     axios
-      .get('courses/public-courses/paging/' + data.length)
+      .post(
+        `courses/public-courses/paging-by-filter/${reset ? 0 : data.length}`,
+        {
+          course_groups: cgSelected,
+          order_by: orderBy,
+          search,
+        }
+      )
       .then((res) => {
         if (res.data.status === 200) {
-          setData([...data, ...res.data.data])
+          if (reset) {
+            setData(res.data.data)
+          } else {
+            setData([...data, ...res.data.data])
+          }
         }
       })
       .finally(() => setLoading(false))
+  }
+
+  const renderFilter = () => {
+    return (
+      <>
+        <div className="box-filter-linh-vuc-left-expert box-fixed-expert col-lg-3 col-xl-3 col-md-6">
+          <div className="title-linh-vuc">Danh mục khóa học</div>
+          <div className="list-linh-vuc-filter">
+            {courseGroups &&
+              courseGroups.map((item, index) => {
+                return (
+                  <div className="input-check-box-filter" key={index}>
+                    <input
+                      type="checkbox"
+                      className="input-checkbox-filter"
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          //checked
+                          setCGSelected([...cgSelected, item.id])
+                        } else {
+                          //unchecked
+                          const _cgSelected = cgSelected.filter(
+                            (i) => i !== item.id
+                          )
+                          setCGSelected([..._cgSelected])
+                        }
+                      }}
+                      checked={cgSelected.includes(item.id)}
+                    />
+                    <label htmlFor="checkbox-1" className="label-input-check">
+                      {item.name}
+                    </label>
+                  </div>
+                )
+              })}
+          </div>
+        </div>
+        <div className="box-filter-linh-vuc-left-expert box-fixed-expert col-lg-3 col-xl-3 col-md-6 mt-30 ">
+          <div className="title-linh-vuc">Khóa học dành cho</div>
+          <div className="list-linh-vuc-filter">
+            {objective &&
+              objective.map((item, index) => {
+                return (
+                  <div className="input-check-box-filter" key={index}>
+                    <input
+                      type="checkbox"
+                      className="input-checkbox-filter"
+                      onClick={(e) => {
+                        console.log(e.target.checked)
+                      }}
+                    />
+                    <label htmlFor="checkbox-1" className="label-input-check">
+                      {item.name}
+                    </label>
+                  </div>
+                )
+              })}
+          </div>
+        </div>
+      </>
+    )
   }
 
   return (
@@ -73,114 +155,14 @@ const CoursesPage = () => {
         <div className="box-course container">
           <div className="box-course-container box-expert-user  ">
             <div className="box-filter" style={{ display: 'block' }}>
-              <div className="box-filter-linh-vuc-left-expert box-fixed-expert col-lg-3 col-xl-3 col-md-6">
-                <div className="title-linh-vuc">Danh mục khóa học</div>
-                <div className="list-linh-vuc-filter">
-                  {categories &&
-                    categories.map((item, index) => {
-                      return (
-                        <div className="input-check-box-filter" key={index}>
-                          <input
-                            type="checkbox"
-                            className="input-checkbox-filter"
-                            onClick={(e) => {
-                              console.log(e.target.checked)
-                            }}
-                          />
-                          <label
-                            htmlFor="checkbox-1"
-                            className="label-input-check"
-                          >
-                            {item.title}
-                          </label>
-                        </div>
-                      )
-                    })}
-                </div>
-              </div>
-              <div className="box-filter-linh-vuc-left-expert box-fixed-expert col-lg-3 col-xl-3 col-md-6 mt-30 ">
-                <div className="title-linh-vuc">Khóa học dành cho</div>
-                <div className="list-linh-vuc-filter">
-                  {objective &&
-                    objective.map((item, index) => {
-                      return (
-                        <div className="input-check-box-filter" key={index}>
-                          <input
-                            type="checkbox"
-                            className="input-checkbox-filter"
-                            onClick={(e) => {
-                              console.log(e.target.checked)
-                            }}
-                          />
-                          <label
-                            htmlFor="checkbox-1"
-                            className="label-input-check"
-                          >
-                            {item.title}
-                          </label>
-                        </div>
-                      )
-                    })}
-                </div>
-              </div>
+              {renderFilter()}
             </div>
           </div>
         </div>
       </Drawer>
       <div className="box-course container">
         <div className="box-course-container box-expert-user  ">
-          <div className="box-filter">
-            <div className="box-filter-linh-vuc-left-expert box-fixed-expert col-lg-3 col-xl-3 col-md-6">
-              <div className="title-linh-vuc">Danh mục khóa học</div>
-              <div className="list-linh-vuc-filter">
-                {categories &&
-                  categories.map((item, index) => {
-                    return (
-                      <div className="input-check-box-filter" key={index}>
-                        <input
-                          type="checkbox"
-                          className="input-checkbox-filter"
-                          onClick={(e) => {
-                            console.log(e.target.checked)
-                          }}
-                        />
-                        <label
-                          htmlFor="checkbox-1"
-                          className="label-input-check"
-                        >
-                          {item.title}
-                        </label>
-                      </div>
-                    )
-                  })}
-              </div>
-            </div>
-            <div className="box-filter-linh-vuc-left-expert box-fixed-expert col-lg-3 col-xl-3 col-md-6 mt-30 ">
-              <div className="title-linh-vuc">Khóa học dành cho</div>
-              <div className="list-linh-vuc-filter">
-                {objective &&
-                  objective.map((item, index) => {
-                    return (
-                      <div className="input-check-box-filter" key={index}>
-                        <input
-                          type="checkbox"
-                          className="input-checkbox-filter"
-                          onClick={(e) => {
-                            console.log(e.target.checked)
-                          }}
-                        />
-                        <label
-                          htmlFor="checkbox-1"
-                          className="label-input-check"
-                        >
-                          {item.title}
-                        </label>
-                      </div>
-                    )
-                  })}
-              </div>
-            </div>
-          </div>
+          <div className="box-filter">{renderFilter()}</div>
           <div className="box-list-chuyen-gia col-lg-9 col-xl-9 col-md-12 col-12">
             <div className="box-select-filter-price ">
               <div className="row-header-filter">
@@ -188,16 +170,26 @@ const CoursesPage = () => {
                   <input
                     placeholder="Tìm tên khóa học"
                     className="input-search-name"
+                    id="search-box"
+                    onKeyDown={(e) => {
+                      if (e.key == 'Enter' && !e.shiftKey) {
+                        setSearch(document.getElementById('search-box').value)
+                      }
+                    }}
                   />
                   <div className="icon-search">
                     <SearchOutlined />
                   </div>
                 </div>
                 <div className="box-select-filter-price">
-                  <select className="select-option-filter">
-                    <option>Sắp xếp</option>
-                    <option>Từ A - Z</option>
-                    <option>Từ Z- A</option>
+                  <select
+                    className="select-option-filter"
+                    onChange={(e) => {
+                      setOrderBy(e.target.value)
+                    }}
+                  >
+                    <option value="asc">Từ A - Z</option>
+                    <option value="desc">Từ Z- A</option>
                   </select>
                   <label className="icon-filter" htmlFor="select-filter">
                     <MenuOutlined />
@@ -218,11 +210,21 @@ const CoursesPage = () => {
                         <div className="course-item card">
                           <div className="imgstyle">
                             <img
-                              src={COURSES_PATH + item.id + '.webp?' + rand}
+                              src={`COURSES_PATH${item.id}.webp?${rand}`}
                               alt=""
                             />
                           </div>
-                          <div className="title-course">{item.title}</div>
+                          <div
+                            className="title-course"
+                            onClick={() => {
+                              window.open(
+                                `/course-details/${item.slug}`,
+                                '_blank'
+                              )
+                            }}
+                          >
+                            {item.title}
+                          </div>
                           <hr />
                           <div className="row-star-process">
                             <div className="star">
@@ -237,7 +239,9 @@ const CoursesPage = () => {
                             </div>
                           </div>
                           <div className="hasgtag">
-                            <span>{`#${item.tags}`}</span>
+                            <span>{`#${
+                              item.tags ? item.tags : 'NoTags'
+                            }`}</span>
                           </div>
                         </div>
                       </div>
@@ -250,15 +254,17 @@ const CoursesPage = () => {
                 )}
               </div>
             </Spin>
-            <div className="btn-load-more-expert">
-              <button
-                type="button"
-                className="btn-readmore"
-                onClick={fetchData}
-              >
-                Xem thêm
-              </button>
-            </div>
+            {data.length > 0 && (
+              <div className="btn-load-more-expert">
+                <button
+                  type="button"
+                  className="btn-readmore"
+                  onClick={fetchData}
+                >
+                  Xem thêm
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>

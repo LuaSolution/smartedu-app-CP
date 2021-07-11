@@ -241,7 +241,7 @@ hr{
 .box-list-course
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-top: 40px;
