@@ -14,8 +14,8 @@ const EditProfile = React.lazy(() =>
 const Login = React.lazy(() =>
   import(/* webpackChunkName: "user-login" */ './login')
 )
-const Wishlist = React.lazy(() =>
-  import(/* webpackChunkName: "user-wishlist" */ './wishlist')
+const Courses = React.lazy(() =>
+  import(/* webpackChunkName: "user-courses" */ './courses')
 )
 const Bonus = React.lazy(() =>
   import(/* webpackChunkName: "user-bonus" */ './bonus')
@@ -101,7 +101,7 @@ const User = () => {
         />
         <Route
           path="/courses"
-          render={props => <Wishlist {...props} />}
+          render={props => <Courses {...props} />}
         />
         <Route
           path="/bonus"
