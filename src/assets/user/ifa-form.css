@@ -67,7 +67,7 @@
     text-align: center;
     font-size: 16px;
     padding: 0px;
-    background-color: #0B46A9;
+    background-color: var(--btnCp);
     color: #fff;
     width: 100%;
     height: 100%;
@@ -79,7 +79,7 @@
 
 .form-wrapper .ifa-submit-btn input:hover {
     color: #fff;
-    background-color: #193769;
+    background-color: var(--btnCp-hover);
 }
 
 .form-page {

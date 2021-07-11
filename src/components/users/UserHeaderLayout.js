@@ -39,7 +39,7 @@ const UserHeaderLayout = ({ title }) => {
 
   useEffect(() => {
     if (title) {
-      document.querySelector('title').innerText = 'SmartEdu | ' + title
+      document.querySelector('title').innerText = 'CP Learning Center | ' + title
     }
   }, [title])
 
@@ -121,7 +121,7 @@ const UserHeaderLayout = ({ title }) => {
             style={{ height: '100%' }}
             src={`${process.env.PUBLIC_URL}/assets/img/web/static/${
               process.env.REACT_APP_BUILD_CODE === 'CP'
-                ? 'logo header cP.png'
+                ? 'LogoHeaderCp.png'
                 : 'logo.svg'
             }`}
             alt="logo"
@@ -150,7 +150,7 @@ const UserHeaderLayout = ({ title }) => {
                 onClick={() =>
                   notification.info({
                     description:
-                      'Hiện tại các khóa học chỉ được cung cấp riêng cho Doanh nghiệp, vui lòng đăng ký tài khoản để trải nghiệm hệ thống SmartEdu',
+                      'Hiện tại các khóa học chỉ được cung cấp riêng cho Doanh nghiệp, vui lòng đăng ký tài khoản để trải nghiệm hệ thống CP Learning Center',
                   })
                 }
                 className={
@@ -172,7 +172,7 @@ const UserHeaderLayout = ({ title }) => {
               href="/coming-soon"
               className={path.includes('bonus') ? 'active' : ''}
             >
-              Ưu đãi
+              Lịch đào tạo
             </Nav.Link>
             <Nav.Link
               href="/news"

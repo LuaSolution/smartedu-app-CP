@@ -18,9 +18,7 @@
     background-repeat: no-repeat;
     background-size: auto;
     width: 100%;
-    min-height: 881px;
     position: relative;
-    padding: 50px 0 0 0 ;
 }
 
 .ifa-video-block .img iframe {
@@ -31,29 +29,28 @@
     border-radius: 10px;
 }
 
-.ifa-video-block::before {
+/* .ifa-video-block::before {
     background-image: url(/assets/img/web/home/0.png);
     width: 135px;
     height: 110px;
     top: 36.13px;
     left: 0;
-}
+} */
 
-.ifa-video-block::after {
+/* .ifa-video-block::after {
     background-image: url(/assets/img/web/home/2.png);
     width: 168px;
     height: 110px;
     bottom: 100px;
     right: 0;
-}
+} */
 
 .ifa-video-block-content {
-    padding: 80px 0;
     text-align: right;
 }
 
 .ifa-video-block-content .btn-dang-ky-tu-van:hover {
-    background-color: #CC001B;
+    background-color: #1A7500;
 }
 
 .ifa-video-block-content .header-title {
@@ -92,7 +89,7 @@
     height: 61px;
     background-position: 170px 18px;
     text-align: left;
-    transition: 0.1s ease-in;
+    transition: 0.3s ease-in;
     outline: none;
 }
 
@@ -105,7 +102,7 @@
 }
 
 .btn-dang-ky-tu-van:hover {
-    background-color: #193769;
+    background-color: #1A7500;
     color: #fff;
     border: 1px solid transparent;
     background-image: url(/assets/img/web/home/57.svg);
@@ -132,7 +129,7 @@
     background-position: 125px 18px;
 }
 
-.ifa-why-block::after {
+/* .ifa-why-block::after {
     content: '';
     position: absolute;
     background-image: url(/assets/img/web/home/4.png);
@@ -140,23 +137,22 @@
     height: 119px;
     bottom: 125px;
     left: 0;
-}
+} */
 
 .top-small-text {
-    color: #CC001B;
+    color: #1C7501;
     line-height: 150%;
     font-size: 18px;
     font-weight: 700;
     position: relative;
     margin-bottom: 16px;
-    padding-left: 15px;
 }
 
 .top-small-text::after {
     content: '';
     height: 3px;
     width: 50px;
-    background-color: #193769;
+    background-color: #1C7501;
     position: absolute;
     bottom: 7px;
     margin-left: 20px;
@@ -164,11 +160,10 @@
 }
 
 .top-lg-text {
-    color: #193769;
+    color: #1C7501;
     font-size: 50px;
     font-weight: 700;
     line-height: 130%;
-    padding-left: 15px;
 }
 
 .ifa-why-block-content {
@@ -322,7 +317,7 @@
 }
 
 .ifa-method-block-content .top-small-text::after {
-    background-color: #CC001B;
+    background-color: #1C7501;
 }
 
 .ifa-method-block-content .top-lg-text {
@@ -334,13 +329,7 @@
     background-repeat: no-repeat;
 }
 
-.ifa-method-block::before {
-    background-color: #193769;
-    width: 100%;
-    height: 340px;
-    top: 0;
-    left: 0;
-}
+
 
 .ifa-method-block-content {
     padding-top: 50px;
@@ -367,8 +356,11 @@
 .list-course-block .carousel-control-next {
     right: 7px;
 }
+.top-small-text::after {
+    background-color: #1C7501;
+}
 
-.ifa-course-block-content .top-small-text::after {
+.ifa-course-block-content {
     background-color: #CC001B;
 }
 
@@ -666,7 +658,7 @@
 
 .ifa-category-block .ifa-list-item .item:hover {
     color: #fff;
-    background-color: #CC001B;
+    background-color: #1A7500;
 }
 
 .ifa-connect-pro-block {
@@ -699,8 +691,9 @@
 
 .ifa-connect-pro-block .btn-dang-ky-tu-van-why-block .btn-dang-ky-tu-van:hover {
     color: #fff;
-    background-color: #CC001B;
+    background-color: #1A7500;
     background-image: url(/assets/img/web/home/57.svg);
+    transition: 0.3s ease-in;
 }
 
 .ifa-connect-pro-block::before {
@@ -789,11 +782,11 @@
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
-
+/* 
 .ifa-our-pro-block .list-our-pro .item:hover {
     box-shadow: 2px 6px 30px rgb(78 82 92 / 20%);
     transform: scaleY(1.01);
-}
+} */
 
 .ifa-our-pro-block .list-our-pro .item:nth-child(3n+2) {
     margin-left: 30px;
@@ -995,7 +988,7 @@
     width: 187px;
     background-position: 130px 18px;
 }
-
+/* 
 .ifa-news-block::after {
     background-image: url(/assets/img/web/home/21.png);
     width: 164px;
@@ -1003,7 +996,7 @@
     bottom: 65px;
     right: 0;
     z-index: 0;
-}
+} */
 
 .ifa-news-block {
     position: relative;
@@ -1018,13 +1011,13 @@
     margin-top: 30px;
 }
 
-.ifa-news-elearning::after {
+/* .ifa-news-elearning::after {
     background-image: url(/assets/img/web/home/51.png);
     width: 164px;
     height: 118px;
     bottom: -60px;
     left: 0;
-}
+} */
 
 /* For modal */
 
@@ -1176,22 +1169,183 @@
     background-position: center;
 }
 
-/* end Desktop */
+.bg-banner
+{
+    background-image: url("/assets/img/web/home/CoverTrangbia.png");
+    height: 920px;
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    align-items: center;
 
-@media only screen and (max-width: 1366px) {
-    .ifa-video-block {
-        background-size: cover;
-        min-height: 684px;
-    }
+}
+.ifa-video-block .img iframe {
+    height: 410px;
+}
+.ifa-video-block .img iframe {
+    width: 50%;
+    display: flex;
+}
+.title-home
+{
+    color: #1A7500;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.item-tintuc-home
+{
+    border-bottom: 10px solid #1A7500;
+}
+.card{
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
 }
 
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.list-cat-course-home
+{
+    display: flex;
+}
+.cat-course-home
+{
+    border: 1px solid #eee;
+    background: #FFFFFF;
+    box-shadow: 2px 5px 20px rgba(42, 44, 49, 0.13);
+    border-radius: 5px;
+
+}
+.imgstyle-cat
+{
+    height:200px ;
+}
+.imgstyle-cat img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.cat-course-home .cat-name-home {
+    color: #fff;
+    font-size: 18px;
+    padding: 50px 15px;
+    font-weight: bold;
+    border-radius: 0px 0px 5px 5px;
+    height: 151px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bg-green
+{
+    background-color: #149940 ;
+}
+/* .list-cat-course-home .col-lg-3, .list-cat-course-home .col-md-6 ,.list-cat-course-home .col-sm-6, .list-cat-course-home .col-12
+{
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+.t-cap
+{
+    text-transform: capitalize;
+}
+.cut-text-2-line{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; 
+   /* height: 4.3em; */
+   -webkit-box-orient: vertical;
+   /* display: block; or inline-block 
+   text-overflow: ellipsis;
+   word-wrap: break-word;
+   overflow: hidden;
+   max-height: 4.6em;
+   line-height: 1.8em; */
+}
+.list-cat-course-home .card
+{
+    border: none;
+}
+.mt-80
+{
+    margin-top: 80px;
+}
+.bg-gra-blue
+{
+    background: linear-gradient(179.71deg, rgba(5, 117, 61, 0) 0.25%, rgba(5, 117, 61, 0.338542) 16.95%, rgba(5, 117, 61, 0.494792) 33.2%, rgba(5, 117, 61, 0.739583) 68.78%, #05753D 99.75%);;
+}
+.bg-blue
+{
+    background-color: #173768;
+}
+.title-home
+{
+    margin-bottom: 30px;
+}
+.ifa-news-block .list-news {
+    margin-top: 30px;
+}
+.card {
+    margin: 0px; 
+}
+.mb-20
+{
+    margin-bottom: 20px;
+}
+
+/* end Desktop */
+
+@media(max-width: 990px){
+  .cat-course-home
+  {
+      margin-bottom: 20px;
+  }
+  .item-tintuc-home, .card
+  {
+    margin-bottom: 20px;
+  }
+} 
+
+@media only screen and (max-width: 1440px)
+{
+    .ifa-video-block .img iframe {
+        width: 54%;
+    }
+    .ifa-video-block .img iframe {  
+        height: 310px;
+    }
+    .bg-banner .btn-dang-ky-tu-van-block
+    {
+        margin-left: 162px;
+    }
+    .bg-banner {
+        height: 710px;
+    }
+}
+@media only screen and (max-width: 1366px)
+{
+    .bg-banner .btn-dang-ky-tu-van-block {
+    }
+    .bg-banner {
+        height: 674px;
+        background-size: cover;
+    }
+    
+    .bg-banner .btn-dang-ky-tu-van-block {
+        margin-left: 0px;
+    }
+}
 @media only screen and (max-width: 1024px) {
     .ifa-video-block-content .header-title {
         font-size: 41px;
-    }
-    .ifa-video-block {
-        background-size: cover;
-        min-height: 635px;
     }
     .ifa-why-block-content {
         padding: 50px 0;
@@ -1250,9 +1404,15 @@
     .ifa-partner-block {
         margin-top: 80px;
     }
-    
+    .bg-banner {
+        height: 618px;
+    }
+    .bg-banner {
+        background-image: url(/assets/img/web/home/bg1024.svg);
+    }
 
 }
+
 
 @media only screen and (min-width: 992px) and (max-width: 1119px) {
     .ifa-video-block-content .header-content {
@@ -1263,7 +1423,7 @@
     }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     .ifa-video-block-content .header-title {
         margin-bottom: 24px;
     }
@@ -1421,10 +1581,6 @@
     .ifa-partner-block .list-logo .item {
         text-align: center;
     }
-    .ifa-video-block {
-        min-height: 450px;
-        background-size: cover;
-    }
     .ifa-why-block-content {
         padding: 40px 0;
     }
@@ -1492,18 +1648,75 @@
     .ifa-elearning-block .t-css{
         margin-top: -25px;
     }
+    .bg-banner {
+        height: 524px;
+    }
+    .ifa-video-block .img {
+        margin-top: 0px;
+    }
+    .btn-dang-ky-tu-van-block {
+        margin-top: 20px;
+    }
+    .bg-banner {
+        background-image: url(/assets/img/web/home/bg992.png);
+    }
+    .btn-dang-ky-tu-van, .btn-dang-ky-tu-van:hover {
+        margin: 0px;
+    }
+
+}
+/* end 992 */
+@media only screen and (max-width: 897px)
+{
+    .bg-banner {
+        height: 441px;
+        /* width: 100%; */
+    }
+    .ifa-video-block .img iframe {
+        height: 230px;
+    }
+    .ifa-video-block .img iframe {
+        width: 48%;
+    margin: 0 ; 
+    }
+    .btn-dang-ky-tu-van-block
+    {
+        margin: 0;
+        margin-left: 0;
+    }
 
 }
 
-/* end 991 */
 @media only screen and (max-width: 812px) {
+   
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .ifa-video-block .img iframe {
+    width: 62%;
     
-    .ifa-video-block {
-        min-height: 520px;
-        background-size: cover;
+    }
+    .btn-dang-ky-tu-van, .btn-dang-ky-tu-van:hover {
+        margin-top: 16px;
+    }
+    .title-home {
+        font-size: 30px;
+    }
+    .top-small-text {
+        margin-bottom: 8px;
+    }
+    .top-small-text, .top-lg-text {
+        padding: 0;
+    }
+    .cat-course-home .cat-name-home {
+        height: 123px;
+    }
+    .ifa-news-elearning {
+        margin-top: 0px;
     }
 }
-
 @media only screen and (max-width: 736px) {
     
     .ifa-video-block .img {
@@ -1512,10 +1725,7 @@
     .ifa-video-block-content .header-title {
         margin-bottom: 16px;
     }
-    .ifa-video-block {
-        min-height: 630px;
-        background-size: cover;
-    }
+    
     .ifa-why-block-content {
         padding: 48px 0;
     }
@@ -1589,6 +1799,22 @@
     .ifa-news-block .item {
         width: calc(100% - 0px);
     }
+    .ifa-video-block .img iframe {
+        width: 70%;
+    }
+    .btn-dang-ky-tu-van, .btn-dang-ky-tu-van:hover {
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .title-home {
+        font-size: 30px;
+    }
+    .top-small-text, .top-lg-text {
+        padding: 0px;
+    }
+    .cat-course-home .cat-name-home {
+        height: 70px;
+    }
 }
 
 @media only screen and (max-width: 667px) {
@@ -1603,9 +1829,7 @@
 }
 
 @media only screen and (max-width: 414px) {
-    .ifa-video-block {
-        min-height: 670px;
-    }
+
     .ifa-why-block-content {
         padding: 30px 0;
     }
@@ -1759,7 +1983,7 @@
     .ifa-list-item .icon {
         margin: 0 auto;
     }
-    .ifa-category-block .top-lg-text {
+    .ifa-category-block {
         padding-left: 10px;
     }
     .ifa-modal .form-page .form-wrapper .title {
@@ -1770,5 +1994,73 @@
     }
     .ifa-elearning-block .t-css {
         margin-top: -4px;
+    }
+    .ifa-video-block .img iframe {
+        width: 100%;
+    }
+    .btn-dang-ky-tu-van, .btn-dang-ky-tu-van:hover {
+        margin: 0px auto;
+    }
+    .bg-banner {
+        background-image: url(/assets/img/web/home/bg414.png);
+    }
+    .ifa-video-block-content {
+        padding: 0px 0 50px 0;
+    }
+    .ifa-block-content {
+        padding-top: 5px;
+    }
+    .title-home {
+        font-size: 20px;
+    }
+    .top-small-text {
+        margin-bottom: 5px;
+    }
+    .ifa-news-block .list-news {
+        margin-top: 0px;
+    }
+    .ifa-news-elearning {
+        margin-top: 33px;
+    }
+    .ifa-news-block .item {
+        width: calc(100% - 20px);
+        margin: 0px auto;
+    }
+    .ifa-news-block .item {
+        width: calc(100% - 20px);
+        margin: 0px auto 20px 0px;
+    }
+    
+}
+@media screen and (max-width: 375px)
+{
+    .bg-banner
+    {
+        background-size: cover;
+    }
+    .ifa-video-block .img iframe {
+        width: 100%;
+    }
+    .bg-banner
+    {
+        background-image: url(/assets/img/web/home/bg414.svg);
+        background-size: contain;
+
+    }
+    .bg-banner .btn-dang-ky-tu-van-block {
+        margin-left: 0px;
+    }
+    .btn-dang-ky-tu-van-block {
+        margin-top: 16px;
+    }
+    .ifa-video-block-content {
+        padding: 0px 0 50px 0;
+        text-align: center;
+    }
+    .ifa-video-block .img iframe {
+        width: 94%;
+    }
+    .bg-banner {
+        height: 423px;
     }
 }

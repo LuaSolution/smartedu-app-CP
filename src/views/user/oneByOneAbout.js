@@ -22,7 +22,7 @@ const OneByOneAbout = () => {
                                     <div className="title">
                                         <span style={{ color: '#CC001B' }}>One-by-One </span>Live </div>
                                     <div className="subtitle"> Chào mừng các bạn đến với dịch vụ kết nối chuyên gia qua hệ thống One-by-One Live
-                  của SmartEdu </div>
+                  của CP Learning Center </div>
                                     <div className="cnt"> Cơ hội gặp gỡ và thu nhận được những lời tư vấn có giá trị đến từ các chuyên gia hàng
                                     đầu Việt Nam và trên thế giới - những người luôn sẵn sàng chia sẻ kiến thức, kỹ năng và kinh nghiệm
                   cho bạn. </div>
@@ -50,9 +50,9 @@ const OneByOneAbout = () => {
                         <div className="row">
                             <div className="col-12">
                                 <div className="top-small-text"> Kết nối với chuyên gia cực dễ </div>
-                                <div className="top-lg-text"> Hãy bắt đầu với One-by-One Live của SmartEdu </div>
+                                <div className="top-lg-text"> Hãy bắt đầu với One-by-One Live của CP Learning Center </div>
                                 <div className="des col-12">Chỉ cần làm vài thao tác đơn giản, có thể đặt lịch cho việc gặp gỡ và tư vấn trực
-                                tiếp bằng hệ thống One-by-One Live của SmartEdu cho dù bạn ở đâu hay chuyên gia mà bạn muốn ở bất kỳ nơi
+                                tiếp bằng hệ thống One-by-One Live của CP Learning Center cho dù bạn ở đâu hay chuyên gia mà bạn muốn ở bất kỳ nơi
                 nào trên thế giới đều có thể kết nối cùng bạn </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ const OneByOneAbout = () => {
                                             <span style={{ color: '#CC001B' }}> miễn phí</span> trên hệ thống </div>
                                         </div>
                                         <div className="row">
-                                            <div className=" des-step col-12">Hệ thống Smartedu cho phép bạn tạo tài khoản miễn phí một cách nhanh
+                                            <div className=" des-step col-12">Hệ thống CP Learning Center cho phép bạn tạo tài khoản miễn phí một cách nhanh
                       chóng, hãy tham gia ngay với chúng tôi. Tạo tài khoản ngay <a
                                                     href="https://smarte.edu.vn/register">tại đây</a> </div>
                                         </div>
@@ -192,7 +192,7 @@ const OneByOneAbout = () => {
                                         </div>
                                         <div className="row">
                                             <div className=" des-step col-12">
-                                                Hệ thống tự động kết nối trực tuyến bạn và chuyên gia qua hệ thống One-by-One Live của SmartEdu
+                                                Hệ thống tự động kết nối trực tuyến bạn và chuyên gia qua hệ thống One-by-One Live của CP Learning Center
                       khi đến thời gian đã hẹn.</div>
                                         </div>
                                     </div>

@@ -76,7 +76,7 @@ const Login = () => {
             </div>
             <div className="form-wrapper">
               <p className="title">Đăng nhập</p>
-              <p className="sub-title">Chào mừng bạn quay lại SmartEdu !</p>
+              <p className="sub-title">Chào mừng bạn quay lại CP Learning Center !</p>
               {err && <Alert message={err} type="error" showIcon />}
               <div className={errClassname}>
                 <p className="label">Tên đăng nhập*</p>

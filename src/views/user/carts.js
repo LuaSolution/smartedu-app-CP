@@ -221,7 +221,7 @@ const ModalPayment = ({ show, handleClose, cartList, flushCarts }) => {
         ></button>
         <div className="form-page">
           <div className="form-wrapper">
-            <p className="title">Gửi thông tin giỏ hàng cho SmartEdu</p>
+            <p className="title">Gửi thông tin giỏ hàng cho CP Learning Center</p>
             <p className="sub-title">
               Chúng tôi sẵn sàng tư vấn, hoàn toàn miễn phí
             </p>

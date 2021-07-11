@@ -38,6 +38,10 @@ import s2_5 from 'atoms/home/s2-5.jpg'
 import s2_6 from 'atoms/home/s2-6.jpg'
 import s2_7 from 'atoms/home/s2-7.jpg'
 import s2_8 from 'atoms/home/s2-8.jpg'
+import s1_1_cp from 'atoms/home/001-01.png'
+import s1_2_cp from 'atoms/home/001-02.png'
+import s1_3_cp from 'atoms/home/001-03.png'
+import s1_4_cp from 'atoms/home/001-04.png'
 import { NEWS_PATH, CATE_PATH, COURSES_PATH } from 'defines'
 // import { Avatar } from 'atoms'
 const { Paragraph } = Typography
@@ -147,9 +151,9 @@ const toMentorDatas = [
   },
   {
     icon: s8_4,
-    title: 'Gia nhập cộng đồng mentor SmartEdu',
+    title: 'Gia nhập cộng đồng mentor CP Learning Center',
     content:
-      'Tham gia làm mentor SmartEdu không ràng buộc và có thể chia sẻ các giá trị chung cho cộng đồng',
+      'Tham gia làm mentor CP Learning Center không ràng buộc và có thể chia sẻ các giá trị chung cho cộng đồng',
   },
   {
     icon: s8_5,
@@ -190,7 +194,7 @@ const MainPage = () => {
 
   const openNotificationWithIcon = (type = 'success') => {
     notification[type]({
-      message: 'Thông báo từ SmartEdu',
+      message: 'Thông báo từ CP Learning Center',
       description:
         'Đã gửi thông tin đến Smart Edu, chúng tôi sẽ phản hồi cho bạn thông qua email hoặc số điện thoại, xin cảm ơn !',
     })
@@ -253,23 +257,10 @@ const MainPage = () => {
       <UserHeaderLayout />
       <div className="ifa-body-wrapper ">
         <div
-          className="ifa-container ifa-video-block  "
-          style={{ backgroundImage: `url(${bgVideoBlock})` }}
+          className="ifa-container ifa-video-block bg-banner "
         >
           <div className="row ifa-block-content ifa-video-block-content container">
-            <div className="col-lg-6 col-md-6">
-              <p className="header-title">
-                Cung cấp giải pháp đào tạo trực tuyến
-              </p>
-              <p className="header-content">
-                SmartEdu là một hệ thống Quản lý đào tạo trực tuyến nhằm hỗ trợ
-                Quản lý và thực hiện Đào tạo trực tuyến một cách toàn diện. Giúp
-                người học vừa hứng thú với khoá học, vừa có thể đạt được kết quả
-                tương tự như học truyền thống với chi phí thấp nhất mà không cần
-                phải đến lớp.
-              </p>
-            </div>
-            <div className="col-lg-6 col-md-6 img">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-12 img">
               <iframe
                 title="myvideo"
                 id="myvideo"
@@ -278,7 +269,23 @@ const MainPage = () => {
                 allowFullScreen
               ></iframe>
             </div>
-            <div className="col-lg-6 col-md-12 btn-dang-ky-tu-van-block">
+            {/* <div className="col-xl-4 col-lg-12 col-md-12 col-12"> */}
+              {/* <img src={s1_1_cp} className="img-banner-people"/> */}
+
+
+              {/* <p className="header-title">
+                Cung cấp giải pháp đào tạo trực tuyến
+              </p>
+              <p className="header-content">
+                CP Learning Center là một hệ thống Quản lý đào tạo trực tuyến nhằm hỗ trợ
+                Quản lý và thực hiện Đào tạo trực tuyến một cách toàn diện. Giúp
+                người học vừa hứng thú với khoá học, vừa có thể đạt được kết quả
+                tương tự như học truyền thống với chi phí thấp nhất mà không cần
+                phải đến lớp.
+              </p> */}
+            {/* </div> */}
+
+            <div className="col-lg-12 col-md-12 col-12 btn-dang-ky-tu-van-block">
               <div className="btn-dang-ky-tu-van" onClick={handleShow}>
                 Đăng ký tư vấn
               </div>
@@ -290,10 +297,10 @@ const MainPage = () => {
           className="ifa-container ifa-why-block"
           style={{ backgroundImage: `url(${bgWhyChoose})` }}
         >
-          <div className="ifa-block-content ifa-why-block-content container">
-            <p className="top-small-text">Tại sao chọn SmartEdu</p>
+          {/* <div className="ifa-block-content ifa-why-block-content container">
+            <p className="top-small-text">Tại sao chọn CP Learning Center</p>
             <p className="top-lg-text">
-              SmartEdu không chỉ là một nền tảng đào tạo
+              CP Learning Center không chỉ là một nền tảng đào tạo
             </p>
             <div className="row ifa-list-item">
               {whyItemDatas.map((item, index) => (
@@ -316,12 +323,12 @@ const MainPage = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div className="ifa-container ifa-elearning-block">
+        {/* <div className="ifa-container ifa-elearning-block">
           <div className="ifa-block-content ifa-elearning-block-content container">
-            <p className="top-small-text">Tìm hiểu về SmartEdu</p>
+            <p className="top-small-text">Tìm hiểu về CP Learning Center</p>
             <p className="top-lg-text">
               Cung cấp Giải pháp đào tạo Nhân sự toàn diện
             </p>
@@ -338,13 +345,13 @@ const MainPage = () => {
                   </div>
                   <div className="item-content-block">
                     <div className="title">
-                      Chương trình E-Learning và hệ thống LMS SmartEdu
+                      Chương trình E-Learning và hệ thống LMS CP Learning Center
                     </div>
                     <div className="item-content-block-wrapper">
                       <div className="item-content-block">
                         Cung cấp các chương trình đào tạo theo hình thức{' '}
                         <b>Blended Learning</b>, học viên học tập Online trên hệ
-                        thống LMS SmartEdu kết hợp các buổi workshop (Offline)
+                        thống LMS CP Learning Center kết hợp các buổi workshop (Offline)
                         hoặc trên nền tảng Webinar của hệ thống. Học viên được
                         cấp <b>mã QR </b>
                         để quản lý các khóa học của mình
@@ -375,7 +382,7 @@ const MainPage = () => {
                         của doanh nghiệp (Quy trình, quy định, kĩ năng, nghiệp
                         vụ, thông tin sản phẩm, ...) và hỗ trợ báo cáo kết quả
                         người học. Tất cả những nội dung số hóa sẽ được đưa lên
-                        hệ thống LMS SmartEdu được cấp quyền riêng cho Doanh
+                        hệ thống LMS CP Learning Center được cấp quyền riêng cho Doanh
                         nghiệp tự quản lý và đánh giá kết quả nhân viên thông
                         qua hệ thống
                       </div>
@@ -385,18 +392,57 @@ const MainPage = () => {
               </div>
             </div>
           </div>
-          {/* <div className="btn-dang-ky-tu-van-block container" style={{ display: 'flex', justifyContent: 'center', marginBottom: 10 }}>
+          <div className="btn-dang-ky-tu-van-block container" style={{ display: 'flex', justifyContent: 'center', marginBottom: 10 }}>
           <div className="btn-dang-ky-tu-van t-css" onClick={() => {
             window.open('/coming-soon', '_blank')
           }} >Tìm hiểu thêm</div>
-        </div> */}
         </div>
+        </div> */}
 
-        <div
-          className="ifa-container ifa-method-block"
-          style={{ backgroundImage: `url(${bgMethod})` }}
-        >
-          <div className="ifa-container">
+{/* SAU NAY LA SILDER */}
+        <div className="ifa-container ifa-method-block">
+          <div className="container ifa-block-content">
+            <div className="top-small-text">Giới thiệu về các khóa học</div>
+            <div className="title-home"> Các khóa đào tạo HRD - CPV - Learning Center</div>
+            <div className="row list-cat-course-home">
+            <div className=" col-lg-3 col-md-6 col-sm-6 col-12  ">
+                <div className="card cat-course-home">
+                  <div className="imgstyle-cat">
+                    <img src={s1_1_cp} />
+                  </div>
+                  <div className="cat-name-home bg-blue  cut-text-2-line t-cap"> CPV Concept Learning</div>
+                </div>
+              </div>
+              <div className=" col-lg-3 col-md-6 col-sm-6 col-12  ">
+                <div className="card cat-course-home">
+                  <div className="imgstyle-cat">
+                    <img src={s1_2_cp} />
+                  </div>
+                  <div className="cat-name-home bg-green cut-text-2-line t-cap">CPF Way Course</div>
+                </div>
+              </div>
+              <div className=" col-lg-3 col-md-6 col-sm-6 col-12  ">
+                <div className="card cat-course-home">
+                  <div className="imgstyle-cat">
+                    <img src={s1_3_cp} />
+                  </div>
+                  <div className="cat-name-home bg-blue cut-text-2-line t-cap"> SD1,2,3 - Standard Course</div>
+                </div>
+              </div>
+              
+              <div className=" col-lg-3 col-md-6 col-sm-6 col-12 ">
+                <div className="card cat-course-home">
+                  <div className="imgstyle-cat">
+                    <img src={s1_4_cp} />
+                  </div>
+                  <div className="cat-name-home bg-green cut-text-2-line t-cap"> 7 Habits</div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          {/* <div className="ifa-container">
             <div className="ifa-block-content ifa-method-block-content container">
               <p className="top-small-text">Khóa học có gì nổi bật?</p>
               <p className="top-lg-text">
@@ -413,12 +459,12 @@ const MainPage = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <div className="ifa-container ifa-course-block container-fluid">
           <div className="ifa-block-content ifa-course-block-content">
             <p className="top-small-text">
-              Hệ thống SmartEdu có những khóa học nào?
+              Hệ thống CP Learning Center có những khóa học nào?
             </p>
             <p className="top-lg-text">
               Khóa học trực tuyến
@@ -521,7 +567,7 @@ const MainPage = () => {
           </div>
         </div> */}
 
-          <div className="ifa-container ifa-connect-pro-block ">
+          {/* <div className="ifa-container ifa-connect-pro-block ">
             <div className="ifa-block-content container">
               <p className="top-small-text">Kết nối với chuyên gia cực dễ</p>
               <p className="top-lg-text">One - by - One Live</p>
@@ -530,9 +576,8 @@ const MainPage = () => {
                   className="col-lg-6 col-md-6 col-sm-12 col-12 item-wrapper "
                   style={{
                     borderRadius: 5,
-                    backgroundImage: `url(${
-                      process.env.PUBLIC_URL + '/assets/img/web/home/43.webp'
-                    })`,
+                    backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/img/web/home/43.webp'
+                      })`,
                   }}
                 ></div>
 
@@ -554,7 +599,7 @@ const MainPage = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div className="ifa-container ifa-our-pro-block">
           <div className="ifa-block-content">
             <p className="top-lg-text">
@@ -609,10 +654,11 @@ const MainPage = () => {
               </Carousel>}
           </div>
         </div> */}
+          {/*         
           <div className="ifa-container ifa-share-block">
             <div className=" ifa-block-content container">
               <p className="top-small-text">Chia sẻ kiến thức với cộng đồng</p>
-              <p className="top-lg-text">Trở thành chuyên gia cùng SmartEdu</p>
+              <p className="top-lg-text">Trở thành chuyên gia cùng CP Learning Center</p>
               <div className="row">
                 {toMentorDatas.map((item, index) => (
                   <div className="col-lg-4 col-md-6 item" key={index}>
@@ -636,14 +682,15 @@ const MainPage = () => {
               </div>
             </div>
           </div>
+        */}
         </div>
 
-        <div className="ifa-container ifa-news-elearning ">
+        <div className="ifa-container ifa-news-elearning mt-80">
           {/* <div className="ifa-container ifa-news-elearning" style={{ backgroundImage: `url(${bgNewsElearning})` }}> */}
           <div className="container ifa-container ifa-news-block ">
             <div className="ifa-block-content container ">
-              <p className="top-small-text">Liên tục những hoạt động sôi nổi</p>
-              <p className="top-lg-text">Tin tức - Sự kiện</p>
+              {/* <p className="top-small-text">Liên tục những hoạt động sôi nổi</p> */}
+              <p className="top-lg-text title-home">Tin tức - Sự kiện</p>
               <div className="row list-news">
                 {data &&
                   data.news &&
@@ -653,8 +700,8 @@ const MainPage = () => {
                       key={index}
                     >
                       <div
-                        className="item ifa-item"
-                        style={{ border: '1px solid #eee' }}
+                        className="item ifa-item item-tintuc-home card mb-20"
+
                       >
                         <a href={'/news?p=' + item.id}>
                           <div
@@ -663,21 +710,20 @@ const MainPage = () => {
                               borderTopLeftRadius: 5,
                               borderTopRightRadius: 5,
                               height: 200,
-                              backgroundImage: `url(${
-                                NEWS_PATH + item.id + '.webp?' + Math.random()
-                              })`,
+                              backgroundImage: `url(${NEWS_PATH + item.id + '.webp?' + Math.random()
+                                })`,
                               backgroundSize: 'cover',
                               backgroundRepeat: 'no-repeat',
                             }}
                           ></div>
                           <div className="content">
                             <div className="status-wrapper">
-                              <span className="pos">Đã đăng | </span>
-                              <span className="status live">
+                              {/* <span className="pos">Đã đăng | </span> */}
+                              {/* <span className="status live">
                                 {momentTime(item.created_at)}
-                              </span>
+                              </span> */}
                             </div>
-                            <div className="title">
+                            <div className="title t-cap">
                               <Paragraph ellipsis={{ rows: 3 }}>
                                 {item.title}
                               </Paragraph>
@@ -696,8 +742,8 @@ const MainPage = () => {
               </div>
             </div>
           </div>
-          <div className="ifa-partner-block ifa-block-content container">
-            <p className="top-small-text">Đối tác của SmartEdu</p>
+          {/* <div className="ifa-partner-block ifa-block-content container">
+            <p className="top-small-text">Đối tác của CP Learning Center</p>
             <p className="top-lg-text" style={{ marginBottom: 50 }}>
               200+ công ty và doanh nghiệp danh tiếng
             </p>
@@ -749,7 +795,7 @@ const MainPage = () => {
                   )
               )}
             </InfiniteCarousel>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -762,7 +808,7 @@ const MainPage = () => {
           ></button>
           <div className="form-page">
             <div className="form-wrapper">
-              <p className="title">Nhận tư vấn dịch vụ đào tạo từ SmartEdu</p>
+              <p className="title">Nhận tư vấn dịch vụ đào tạo từ CP Learning Center</p>
               <p className="sub-title">
                 Chúng tôi sẵn sàng tư vấn, hoàn toàn miễn phí
               </p>

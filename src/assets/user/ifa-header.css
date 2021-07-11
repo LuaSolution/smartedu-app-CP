@@ -30,7 +30,7 @@
     font-size: 20px;
     line-height: 140%;
     letter-spacing: 0.01em;
-    color: #193769;
+    color: #189748;
     padding: 0;
     margin-left: 50px;
     padding-bottom: 8px;
@@ -52,7 +52,7 @@
     font-size: 18px;
     line-height: 140%;
     letter-spacing: 0.01em;
-    color: #3368F1;
+    color: var(--btnCp);
     padding: 8px 14px;
     position: relative;
     -webkit-border-radius: 2px;
@@ -72,9 +72,9 @@
 }
 
 .ifa-header .navbar-light .navbar-nav .nav-link.ifa-login-link {
-    border: 1px solid #193769;
+    border: 1px solid var(--btnCp);
     padding: 7px 10px;
-    color: #193769;
+    color: var(--btnCp);
     margin-left: 20px;
     font-weight: 600;
     font-size: 18px;
@@ -87,9 +87,9 @@
 }
 
 .ifa-header .navbar-light .navbar-nav .nav-link.ifa-register-link:hover {
-    color: #3368F1;
+    color: #ffff;
     border: none;
-    background-color: #EAE6E6;
+    background-color: var(--btnCp);
 }
 
 .ifa-header .navbar-light .navbar-nav .nav-link.ifa-register-link:hover::after {
@@ -99,7 +99,7 @@
 .ifa-header .navbar-light .navbar-nav .nav-link.ifa-login-link:hover {
     color: #fff;
     border: 1px solid #fff;
-    background-color: #193769;
+    background-color: var(--btnCp);
 }
 
 /* user info */

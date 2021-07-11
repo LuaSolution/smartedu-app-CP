@@ -160,7 +160,7 @@ const UserFooterLayout = ({ locale, changeLocale }) => {
       <div className="ifa-block-content copy-right">
         Copyright Ⓒ 2021{' '}
         <a href="/">
-          <b>SmartEdu Learning</b>
+          <b>CP Learning Center Learning</b>
         </a>{' '}
         All Rights Reserved
       </div>

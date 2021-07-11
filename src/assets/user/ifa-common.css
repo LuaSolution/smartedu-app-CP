@@ -105,7 +105,7 @@ button:focus,
   }
   
   .btn-load-more-expert button {
-    background: #0B46A9;
+    background: var(--btnCp);
     border-radius: 5px;
     display: flex;
     -webkit-align-items: center;
@@ -122,7 +122,7 @@ button:focus,
   }
   
   .btn-load-more-expert button:hover {
-    background: var(--primaryBlue);
+    background: var(--btnCp-hover);
     color: var(--white);
   }
 

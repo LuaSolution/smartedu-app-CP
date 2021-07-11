@@ -39,9 +39,9 @@ const ExpertAbout = () => {
 
     const openNotificationWithIcon = (type = 'success') => {
         notification[type]({
-            message: 'Thông báo từ SmartEdu',
+            message: 'Thông báo từ CP Learning Center',
             description:
-                'Đã gửi thông tin đến SmartEdu, chúng tôi sẽ phản hồi cho bạn thông qua email hoặc số điện thoại, xin cảm ơn !',
+                'Đã gửi thông tin đến CP Learning Center, chúng tôi sẽ phản hồi cho bạn thông qua email hoặc số điện thoại, xin cảm ơn !',
         })
     }
 
@@ -83,9 +83,9 @@ const ExpertAbout = () => {
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div className="mentor-Intro-left">
-                                    <div className="title"> Đăng ký trở thành chuyên gia với SmartEdu </div>
+                                    <div className="title"> Đăng ký trở thành chuyên gia với CP Learning Center </div>
                                     <div className="cnt"> Kính chào Quý Thầy Cô/Chuyên gia đến với trang đăng ký trở thành giảng viên và chuyên
-                  gia của SmartEdu, hệ thống giáo dục trực tuyến thuộc Viện Quản trị và Tài chính (IFA). </div>
+                  gia của CP Learning Center, hệ thống giáo dục trực tuyến thuộc Viện Quản trị và Tài chính (IFA). </div>
                                     <div className="col-12 ">
                                         <div className="row btn" onClick={handleShow}> Trở thành chuyên gia</div>
                                     </div>
@@ -108,7 +108,7 @@ const ExpertAbout = () => {
                         <div className="row" style={{ marginRight: 0, marginLeft: 0 }}>
                             <div className="col-12">
                                 <div className="top-small-text"> Chia sẻ kiến thức đến cộng đồng </div>
-                                <div className="top-lg-text"> Trở thành giảng viên/ chuyên gia của SmartEdu thật đơn giản</div>
+                                <div className="top-lg-text"> Trở thành giảng viên/ chuyên gia của CP Learning Center thật đơn giản</div>
                                 <div className="des col-12">Chỉ một vài thao tác đơn giản để đăng ký tạo tài khoản, Quý Thầy Cô/Chuyên gia sẽ
                                 trở thành người chia sẻ và dẫn dắt sự thành công của cộng đồng doanh nghiệp, khởi nghiệp và sinh viên.
               </div>
@@ -239,7 +239,7 @@ const ExpertAbout = () => {
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                         <div className="des">
-                                        Trân trọng kính mời Quý Thầy Cô/Chuyên gia tham gia cộng đồng giáo dục trực tuyến trên hệ thống SmartEdu để góp phần xây dựng hệ thống học tập MỌI NƠI, MỌI LÚC, MỌI LĨNH VỰC VÀ CHO MỌI NGƯỜI.
+                                        Trân trọng kính mời Quý Thầy Cô/Chuyên gia tham gia cộng đồng giáo dục trực tuyến trên hệ thống CP Learning Center để góp phần xây dựng hệ thống học tập MỌI NƠI, MỌI LÚC, MỌI LĨNH VỰC VÀ CHO MỌI NGƯỜI.
                   </div>
                                         <div className="btn" style={{ textAlign: 'center' }} onClick={handleShow}> Trở thành chuyên gia</div>
 
