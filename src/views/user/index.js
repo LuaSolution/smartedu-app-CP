@@ -96,125 +96,93 @@ const User = () => {
   return (
     <Suspense fallback={<div className="loading" />}>
       <Switch>
-        <Route exact path="/"
-          render={props => <Main {...props} />}
-        />
-        <Route
-          path="/courses"
-          render={props => <Courses {...props} />}
-        />
-        <Route
-          path="/bonus"
-          render={props => <Bonus {...props} />}
-        />
-        <Route
-          path="/expert"
-          render={props => <Expert {...props} />}
-        />
+        <Route exact path="/" render={(props) => <Main {...props} />} />
+        <Route path="/courses" render={(props) => <Courses {...props} />} />
+        <Route path="/bonus" render={(props) => <Bonus {...props} />} />
+        <Route path="/expert" render={(props) => <Expert {...props} />} />
         <Route
           path="/expert-detail/:id"
-          render={props => <ExpertDetail {...props} />}
+          render={(props) => <ExpertDetail {...props} />}
         />
-        <Route
-          path="/experts"
-          render={props => <Experts {...props} />}
-        />
-        <Route
-          path="/news"
-          render={props => <News {...props} />}
-        />
-        <Route
-          path="/carts"
-          render={props => <CartList {...props} />}
-        />
-        <Route
-          path="/notify"
-          render={props => <NotifyList {...props} />}
-        />
+        <Route path="/experts" render={(props) => <Experts {...props} />} />
+        <Route path="/news" render={(props) => <News {...props} />} />
+        <Route path="/carts" render={(props) => <CartList {...props} />} />
+        <Route path="/notify" render={(props) => <NotifyList {...props} />} />
         <Route
           path="/profile/:id/:section"
-          render={props => <Profile {...props} />}
+          render={(props) => <Profile {...props} />}
         />
         <Route
           path="/edit-profile"
-          render={props => <EditProfile {...props} />}
+          render={(props) => <EditProfile {...props} />}
         />
-        <Route
-          path="/login"
-          render={props => <Login {...props} />}
-        />
-        <Route
-          path="/register"
-          render={props => <Register {...props} />}
-        />
+        <Route path="/login" render={(props) => <Login {...props} />} />
+        <Route path="/register" render={(props) => <Register {...props} />} />
         <Route
           path="/forgot-password"
-          render={props => <ForgotPassword {...props} />}
+          render={(props) => <ForgotPassword {...props} />}
         />
         <Route
           path="/reset-password"
-          render={props => <ResetPassword {...props} />}
+          render={(props) => <ResetPassword {...props} />}
         />
         <Route
           path="/dashboards"
-          render={props => <Dashboards {...props} />}
+          render={(props) => <Dashboards {...props} />}
         />
         <Route
           path="/course-details/:slug"
-          render={props => <CourseDetails {...props} />}
+          render={(props) => <CourseDetails {...props} />}
         />
         <Route
           path="/course-contents/:slug/:lesson"
-          render={props => <CourseContents {...props} />}
+          render={(props) => <CourseContents {...props} />}
         />
         <Route
           path="/take-survey/:id"
-          render={props => <SurveyDetail {...props} />}
+          render={(props) => <SurveyDetail {...props} />}
         />
         <Route
           path="/khao-sat"
-          render={props => <TakeSurvey2 {...props} />}
+          render={(props) => <TakeSurvey2 {...props} />}
         />
         <Route
           path="/loc-troi"
-          render={props => <TakeSurveyLC {...props} />}
+          render={(props) => <TakeSurveyLC {...props} />}
         />
         <Route
           path="/video-call/:roomID"
-          render={props => <VideoCall {...props} />}
+          render={(props) => <VideoCall {...props} />}
         />
-          <Route
+        <Route
           path="/expert-about"
-          render={props => <ExpertAbout {...props} />}
+          render={(props) => <ExpertAbout {...props} />}
         />
-          <Route
+        <Route
           path="/onebyone-live"
-          render={props => <OneByOneAbout {...props} />}
+          render={(props) => <OneByOneAbout {...props} />}
         />
         {/* ============================================== */}
         <Route
           path="/coming-soon"
           exact
-          render={props => <ViewComingSoon {...props} />}
+          render={(props) => <ViewComingSoon {...props} />}
         />
-        <Route
-          path="/wheel"
-          render={props => <Wheel {...props} />}
-        />
+        <Route path="/wheel" render={(props) => <Wheel {...props} />} />
         <Route
           path="/error"
           exact
-          render={props => <ViewError404 {...props} />}
+          render={(props) => <ViewError404 {...props} />}
         />
         <Route
           path="/exception"
           exact
-          render={props => <ViewException {...props} />}
+          render={(props) => <ViewException {...props} />}
         />
         <Route
           path="/unauthorized"
           exact
-          render={props => <ViewUnauthorized {...props} />}
+          render={(props) => <ViewUnauthorized {...props} />}
         />
         <Redirect to="/error" />
       </Switch>
