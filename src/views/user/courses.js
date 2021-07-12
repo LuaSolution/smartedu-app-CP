@@ -17,7 +17,6 @@ import axios from 'helpers/axios'
 import { Spin, Rate, Progress, Drawer } from 'antd'
 import { NoData } from 'atoms'
 import 'assets/user/khoahoc-cp.css'
-import renderEmpty from 'antd/lib/config-provider/renderEmpty'
 
 const rand = Math.random()
 

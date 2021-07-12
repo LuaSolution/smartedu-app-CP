@@ -135,7 +135,7 @@ const NewsPage = props => {
       </div>
     </div>
     <Drawer
-      width={detectMobile() ? '100%' : '70%'}
+      width={'100%'}
       placement="right"
       closable={true}
       onClose={onCloseDrawer}

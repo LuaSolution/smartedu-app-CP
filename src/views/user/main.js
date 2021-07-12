@@ -187,8 +187,8 @@ const MainPage = () => {
   useEffect(() => {
     axios.get('homepage-info').then((res) => {
       setData(res?.data?.data)
-      document.getElementById('myvideo').src =
-        'https://www.youtube.com/embed/ybUUlBClmFM'
+      // document.getElementById('myvideo').src =
+      //   'https://www.youtube.com/embed/ybUUlBClmFM'
     })
   }, [])
 
@@ -258,7 +258,7 @@ const MainPage = () => {
       <div className="ifa-body-wrapper ">
         <div className="ifa-container ifa-video-block bg-banner ">
           <div className="row ifa-block-content ifa-video-block-content container">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-12 img">
+            {/* <div className="col-xl-12 col-lg-12 col-md-12 col-12 img">
               <iframe
                 title="myvideo"
                 id="myvideo"
@@ -266,7 +266,7 @@ const MainPage = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
-            </div>
+            </div> */}
             {/* <div className="col-xl-4 col-lg-12 col-md-12 col-12"> */}
             {/* <img src={s1_1_cp} className="img-banner-people"/> */}
 
@@ -282,11 +282,11 @@ const MainPage = () => {
               </p> */}
             {/* </div> */}
 
-            <div className="col-lg-12 col-md-12 col-12 btn-dang-ky-tu-van-block">
+            {/* <div className="col-lg-12 col-md-12 col-12 btn-dang-ky-tu-van-block">
               <div className="btn-dang-ky-tu-van" onClick={handleShow}>
                 Đăng ký tư vấn
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
