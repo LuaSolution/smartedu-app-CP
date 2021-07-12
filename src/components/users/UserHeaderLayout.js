@@ -121,7 +121,7 @@ const UserHeaderLayout = ({ title }) => {
             style={{ height: '100%' }}
             src={`${process.env.PUBLIC_URL}/assets/img/web/static/${
               process.env.REACT_APP_BUILD_CODE === 'CP'
-                ? 'LogoHeaderCp.png'
+                ? 'LogoHeaderCp.svg'
                 : 'logo.svg'
             }`}
             alt="logo"

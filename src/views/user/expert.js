@@ -6,9 +6,9 @@ import iconMu from 'atoms/home/icon-mu.svg'
 import iconList from 'atoms/home/icon-position.svg'
 import iconSchool from 'atoms/home/icon-truong.svg'
 import { Carousel, message, Spin } from "antd";
-import Banner1 from 'atoms/home/banner-1.webp'
-import Banner2 from 'atoms/home/banner-2.webp'
-import Banner3 from 'atoms/home/banner-3.webp'
+import Banner1 from 'atoms/home/banner1.jpg'
+import Banner2 from 'atoms/home/banner2.jpg'
+import Banner3 from 'atoms/home/banner3.jpg'
 import axios from 'helpers/axios';
 import { NoData } from 'atoms';
 import { AVATAR_PATH } from 'defines'

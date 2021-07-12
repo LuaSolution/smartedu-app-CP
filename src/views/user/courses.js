@@ -210,7 +210,7 @@ const CoursesPage = () => {
                         <div className="course-item card">
                           <div className="imgstyle">
                             <img
-                              src={`COURSES_PATH${item.id}.webp?${rand}`}
+                              src={`${COURSES_PATH}${item.id}.webp?${rand}`}
                               alt=""
                             />
                           </div>
