@@ -39,7 +39,8 @@ const UserHeaderLayout = ({ title }) => {
 
   useEffect(() => {
     if (title) {
-      document.querySelector('title').innerText = 'CP Learning Center | ' + title
+      document.querySelector('title').innerText =
+        'CP Learning Center | ' + title
     }
   }, [title])
 
@@ -119,11 +120,7 @@ const UserHeaderLayout = ({ title }) => {
         <Navbar.Brand href="/" style={{ height: 80 }}>
           <img
             style={{ height: '100%' }}
-            src={`${process.env.PUBLIC_URL}/assets/img/web/static/${
-              process.env.REACT_APP_BUILD_CODE === 'CP'
-                ? 'LogoHeaderCp.svg'
-                : 'logo.svg'
-            }`}
+            src={`${process.env.PUBLIC_URL}/assets/img/web/static/LogoHeaderCp.png`}
             alt="logo"
           />
         </Navbar.Brand>

@@ -27,11 +27,8 @@ const UserFooterLayout = ({ locale, changeLocale }) => {
             <div className="logo-1">
               <div className="smart-edu-logo">
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/img/web/static/${
-                    process.env.REACT_APP_BUILD_CODE === 'CP'
-                      ? 'logo-cp.svg'
-                      : 'logo.svg'
-                  }`}
+                  style={{ width: 80 }}
+                  src={`${process.env.PUBLIC_URL}/assets/img/web/static/LogoCp.png`}
                   alt="logo"
                 />
               </div>

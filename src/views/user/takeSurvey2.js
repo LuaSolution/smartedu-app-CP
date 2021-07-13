@@ -276,7 +276,7 @@ const UserHeaderLayout = () => {
   return <header className="ifa-header" style={{ height: 150, backgroundColor: 'white' }}>
     <Navbar bg="" expand="lg">
       <Navbar.Brand href="/">
-        <LazyImage src={process.env.PUBLIC_URL + '/assets/img/web/static/logo.svg'} alt="logo" />
+        <LazyImage src={process.env.PUBLIC_URL + '/assets/img/web/static/LogoCp.png'} alt="logo" />
       </Navbar.Brand>
     </Navbar>
   </header>
