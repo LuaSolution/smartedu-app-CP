@@ -260,9 +260,9 @@ const MainPage = () => {
           className="ifa-container ifa-video-block  "
         >
           <img
-                      src={
-                        process.env.PUBLIC_URL + '/assets/img/web/home/CoverTrangbia3.png'
-                      }/>
+            src={
+              process.env.PUBLIC_URL + '/assets/img/web/home/CoverTrangbia3.png'
+            } />
           <div className="row ifa-block-content ifa-video-block-content container d-none">
             <div className="col-xl-12 col-lg-12 col-md-12 col-12 img ">
               <iframe
@@ -719,9 +719,8 @@ const MainPage = () => {
                               borderTopLeftRadius: 5,
                               borderTopRightRadius: 5,
                               height: 200,
-                              backgroundImage: `url(${
-                                NEWS_PATH + item.id + '.webp?' + Math.random()
-                              })`,
+                              backgroundImage: `url(${NEWS_PATH + item.id + '.webp?' + Math.random()
+                                })`,
                               backgroundSize: 'cover',
                               backgroundRepeat: 'no-repeat',
                             }}
