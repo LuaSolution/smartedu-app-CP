@@ -257,23 +257,24 @@ const MainPage = () => {
       <UserHeaderLayout />
       <div className="ifa-body-wrapper ">
         <div
-          className="ifa-container ifa-video-block bg-banner "
+          className="ifa-container ifa-video-block  "
         >
-          <div className="row ifa-block-content ifa-video-block-content container">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-12 img">
+          <img
+                      src={
+                        process.env.PUBLIC_URL + '/assets/img/web/home/CoverTrangbia3.png'
+                      }/>
+          <div className="row ifa-block-content ifa-video-block-content container d-none">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-12 img ">
               <iframe
                 title="myvideo"
                 id="myvideo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+                allowFullScreen>
+              </iframe>
             </div>
             {/* <div className="col-xl-4 col-lg-12 col-md-12 col-12"> */}
-              {/* <img src={s1_1_cp} className="img-banner-people"/> */}
-
-
-              {/* <p className="header-title">
+            {/* <p className="header-title">
                 Cung cấp giải pháp đào tạo trực tuyến
               </p>
               <p className="header-content">
@@ -282,14 +283,13 @@ const MainPage = () => {
                 người học vừa hứng thú với khoá học, vừa có thể đạt được kết quả
                 tương tự như học truyền thống với chi phí thấp nhất mà không cần
                 phải đến lớp.
-              </p> */}
-            {/* </div> */}
+              </p> */} {/* </div> */}
 
-            <div className="col-lg-12 col-md-12 col-12 btn-dang-ky-tu-van-block">
+            {/* <div className="col-lg-12 col-md-12 col-12 btn-dang-ky-tu-van-block">
               <div className="btn-dang-ky-tu-van" onClick={handleShow}>
                 Đăng ký tư vấn
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -399,13 +399,13 @@ const MainPage = () => {
         </div>
         </div> */}
 
-{/* SAU NAY LA SILDER */}
+        {/* SAU NAY LA SILDER */}
         <div className="ifa-container ifa-method-block">
           <div className="container ifa-block-content">
             <div className="top-small-text">Giới thiệu về các khóa học</div>
             <div className="title-home"> Các khóa đào tạo HRD - CPV - Learning Center</div>
             <div className="row list-cat-course-home">
-            <div className=" col-lg-3 col-md-6 col-sm-6 col-12  ">
+              <div className=" col-lg-3 col-md-6 col-sm-6 col-12  ">
                 <div className="card cat-course-home">
                   <div className="imgstyle-cat">
                     <img src={s1_1_cp} />
@@ -429,7 +429,7 @@ const MainPage = () => {
                   <div className="cat-name-home bg-blue cut-text-2-line t-cap"> SD1,2,3 - Standard Course</div>
                 </div>
               </div>
-              
+
               <div className=" col-lg-3 col-md-6 col-sm-6 col-12 ">
                 <div className="card cat-course-home">
                   <div className="imgstyle-cat">

@@ -41,12 +41,6 @@ button:focus,
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 750px) {
-    .ifa-block-content{
-        padding-top: 65px;
-
-    }
-}
 
 .ifa-user-inside .ifa-container {
     padding: 46.78px 50.4px 0 91.85px;
