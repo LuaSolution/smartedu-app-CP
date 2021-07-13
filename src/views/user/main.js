@@ -38,10 +38,10 @@ import s2_5 from 'atoms/home/s2-5.jpg'
 import s2_6 from 'atoms/home/s2-6.jpg'
 import s2_7 from 'atoms/home/s2-7.jpg'
 import s2_8 from 'atoms/home/s2-8.jpg'
-import s1_1_cp from 'atoms/home/001-01.png'
-import s1_2_cp from 'atoms/home/001-02.png'
-import s1_3_cp from 'atoms/home/001-03.png'
-import s1_4_cp from 'atoms/home/001-04.png'
+import s1_1_cp from 'atoms/home/001-01.jpg'
+import s1_2_cp from 'atoms/home/001-02.jpg'
+import s1_3_cp from 'atoms/home/001-03.jpg'
+import s1_4_cp from 'atoms/home/001-04.jpg'
 import { NEWS_PATH, CATE_PATH, COURSES_PATH } from 'defines'
 // import { Avatar } from 'atoms'
 const { Paragraph } = Typography
@@ -187,8 +187,8 @@ const MainPage = () => {
   useEffect(() => {
     axios.get('homepage-info').then((res) => {
       setData(res?.data?.data)
-      document.getElementById('myvideo').src =
-        'https://www.youtube.com/embed/ybUUlBClmFM'
+      // document.getElementById('myvideo').src =
+      //   'https://www.youtube.com/embed/ybUUlBClmFM'
     })
   }, [])
 
@@ -403,14 +403,20 @@ const MainPage = () => {
         <div className="ifa-container ifa-method-block">
           <div className="container ifa-block-content">
             <div className="top-small-text">Giới thiệu về các khóa học</div>
-            <div className="title-home"> Các khóa đào tạo HRD - CPV - Learning Center</div>
+            <div className="title-home">
+              {' '}
+              Các khóa đào tạo HRD - CPV - Learning Center
+            </div>
             <div className="row list-cat-course-home">
               <div className=" col-lg-3 col-md-6 col-sm-6 col-12  ">
                 <div className="card cat-course-home">
                   <div className="imgstyle-cat">
                     <img src={s1_1_cp} />
                   </div>
-                  <div className="cat-name-home bg-blue  cut-text-2-line t-cap"> CPV Concept Learning</div>
+                  <div className="cat-name-home bg-blue  cut-text-2-line t-cap">
+                    {' '}
+                    CPV Concept Learning
+                  </div>
                 </div>
               </div>
               <div className=" col-lg-3 col-md-6 col-sm-6 col-12  ">
@@ -418,7 +424,9 @@ const MainPage = () => {
                   <div className="imgstyle-cat">
                     <img src={s1_2_cp} />
                   </div>
-                  <div className="cat-name-home bg-green cut-text-2-line t-cap">CPF Way Course</div>
+                  <div className="cat-name-home bg-green cut-text-2-line t-cap">
+                    CPF Way Course
+                  </div>
                 </div>
               </div>
               <div className=" col-lg-3 col-md-6 col-sm-6 col-12  ">
@@ -426,7 +434,10 @@ const MainPage = () => {
                   <div className="imgstyle-cat">
                     <img src={s1_3_cp} />
                   </div>
-                  <div className="cat-name-home bg-blue cut-text-2-line t-cap"> SD1,2,3 - Standard Course</div>
+                  <div className="cat-name-home bg-blue cut-text-2-line t-cap">
+                    {' '}
+                    SD1,2,3 - Standard Course
+                  </div>
                 </div>
               </div>
 
@@ -435,12 +446,13 @@ const MainPage = () => {
                   <div className="imgstyle-cat">
                     <img src={s1_4_cp} />
                   </div>
-                  <div className="cat-name-home bg-green cut-text-2-line t-cap"> 7 Habits</div>
+                  <div className="cat-name-home bg-green cut-text-2-line t-cap">
+                    {' '}
+                    7 Habits
+                  </div>
                 </div>
               </div>
             </div>
-
-
           </div>
           {/* <div className="ifa-container">
             <div className="ifa-block-content ifa-method-block-content container">
@@ -699,10 +711,7 @@ const MainPage = () => {
                       className=" col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12"
                       key={index}
                     >
-                      <div
-                        className="item ifa-item item-tintuc-home card mb-20"
-
-                      >
+                      <div className="item ifa-item item-tintuc-home card mb-20">
                         <a href={'/news?p=' + item.id}>
                           <div
                             className="img"
@@ -710,8 +719,9 @@ const MainPage = () => {
                               borderTopLeftRadius: 5,
                               borderTopRightRadius: 5,
                               height: 200,
-                              backgroundImage: `url(${NEWS_PATH + item.id + '.webp?' + Math.random()
-                                })`,
+                              backgroundImage: `url(${
+                                NEWS_PATH + item.id + '.webp?' + Math.random()
+                              })`,
                               backgroundSize: 'cover',
                               backgroundRepeat: 'no-repeat',
                             }}
@@ -808,7 +818,9 @@ const MainPage = () => {
           ></button>
           <div className="form-page">
             <div className="form-wrapper">
-              <p className="title">Nhận tư vấn dịch vụ đào tạo từ CP Learning Center</p>
+              <p className="title">
+                Nhận tư vấn dịch vụ đào tạo từ CP Learning Center
+              </p>
               <p className="sub-title">
                 Chúng tôi sẵn sàng tư vấn, hoàn toàn miễn phí
               </p>

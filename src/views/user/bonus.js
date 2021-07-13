@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import UserHeaderLayout from 'components/users/UserHeaderLayout'
 import UserFooterLayout from 'components/users/UserFooterLayout'
-import Banner1 from 'atoms/home/banner-1.webp'
+import Banner1 from 'atoms/home/banner1.jpg'
 import ItemUuDai from 'atoms/home/item-uu-dai.png'
 import { Carousel } from 'antd';
 import 'assets/user/bouns.scss'

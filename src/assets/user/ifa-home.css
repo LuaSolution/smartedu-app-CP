@@ -1168,16 +1168,35 @@
     background-size: cover;
     background-position: center;
 }
-
-.bg-banner
-{
+/* .bg-banner{
+	background-image: url("/assets/img/web/home/CoverTrangbia.png");
+	min-height: 960px;
+	
+	@media (min-width: 768px) {
+		min-height: 20vw;
+	}
+	
+	@media (min-width: 1200px) {
+		min-height: 400px;
+	}
+	
+	
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+} */
+.bg-banner {
     background-image: url("/assets/img/web/home/CoverTrangbia.png");
-    height: 920px;
-    background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
     width: 100%;
-    display: flex;
-    align-items: center;
-
+	/* height: 0;
+	margin: 2.5vw 2.5vw;
+	padding-bottom: 56.25%;
+	position: relative;
+	text-align: center;
+	z-index: 0; */
 }
 .bg-banner-new
 {
@@ -1342,18 +1361,18 @@
     {
         margin-left: 162px;
     }
-    .bg-banner {
+    /* .bg-banner {
         height: 710px;
-    }
+    } */
 }
 @media only screen and (max-width: 1366px)
 {
     .bg-banner .btn-dang-ky-tu-van-block {
     }
-    .bg-banner {
+    /* .bg-banner {
         height: 674px;
         background-size: cover;
-    }
+    } */
     
     .bg-banner .btn-dang-ky-tu-van-block {
         margin-left: 0px;
@@ -1420,11 +1439,12 @@
     .ifa-partner-block {
         margin-top: 80px;
     }
+/*     
     .bg-banner {
         height: 618px;
-    }
+    } */
     .bg-banner {
-        background-image: url(/assets/img/web/home/bg1024.svg);
+        /* background-image: url(/assets/img/web/home/bg1024.svg); */
     }
 
 }
@@ -1664,9 +1684,9 @@
     .ifa-elearning-block .t-css{
         margin-top: -25px;
     }
-    .bg-banner {
+    /* .bg-banner {
         height: 524px;
-    }
+    } */
     .ifa-video-block .img {
         margin-top: 0px;
     }
@@ -1674,7 +1694,7 @@
         margin-top: 20px;
     }
     .bg-banner {
-        background-image: url(/assets/img/web/home/bg992.png);
+        /* background-image: url(/assets/img/web/home/bg992.png); */
     }
     .btn-dang-ky-tu-van, .btn-dang-ky-tu-van:hover {
         margin: 0px;
@@ -1685,7 +1705,7 @@
 @media only screen and (max-width: 897px)
 {
     .bg-banner {
-        height: 441px;
+        /* height: 441px; */
         /* width: 100%; */
     }
     .ifa-video-block .img iframe {
@@ -2022,7 +2042,7 @@
         margin: 0px auto;
     }
     .bg-banner {
-        background-image: url(/assets/img/web/home/bg414.png);
+        /* background-image: url(/assets/img/web/home/bg414.png); */
     }
     .ifa-video-block-content {
         padding: 0px 0 50px 0;
@@ -2054,17 +2074,17 @@
 }
 @media screen and (max-width: 375px)
 {
-    .bg-banner
+    /* .bg-banner
     {
         background-size: cover;
-    }
+    } */
     .ifa-video-block .img iframe {
         width: 100%;
     }
     .bg-banner
     {
-        background-image: url(/assets/img/web/home/bg414.svg);
-        background-size: contain;
+        /* background-image: url(/assets/img/web/home/bg414.svg); */
+        /* background-size: contain; */
 
     }
     .bg-banner .btn-dang-ky-tu-van-block {
@@ -2080,7 +2100,7 @@
     .ifa-video-block .img iframe {
         width: 94%;
     }
-    .bg-banner {
+    /* .bg-banner {
         height: 423px;
-    }
+    } */
 }

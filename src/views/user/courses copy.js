@@ -16,7 +16,7 @@ import { Spin } from 'antd'
 import { NoData } from 'atoms'
 import 'assets/user/ifa-course-list.css'
 
-const WishListPage = () => {
+const CoursesPage = () => {
   const [loading, setLoading] = useState(false)
   const [data, setData] = useState([])
 
@@ -96,4 +96,4 @@ const WishListPage = () => {
   )
 }
 
-export default React.memo(WishListPage)
+export default React.memo(CoursesPage)
