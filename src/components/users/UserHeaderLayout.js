@@ -54,13 +54,13 @@ const UserHeaderLayout = ({ title }) => {
   }
 
   const logoutUser = () => {
+    localStorage.removeItem('@notifications')
+    localStorage.removeItem('@current_user')
+    localStorage.removeItem('@token')
+    window.location.href = '/'
     axios.get('logout').then((res) => {
       if (res.data.status === 200) {
         console.log(res.data)
-        localStorage.removeItem('@notifications')
-        localStorage.removeItem('@current_user')
-        localStorage.removeItem('@token')
-        window.location.href = '/'
       }
     })
   }
