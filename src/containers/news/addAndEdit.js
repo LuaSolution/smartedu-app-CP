@@ -125,7 +125,7 @@ const AddNewModal = ({ modalOpen, toggleModal, editId, addNewFlag, addNew }) => 
       toggle={toggleModal}
       wrapClassName="modal-right"
       backdrop="static"
-      style={{ maxWidth: '700px' }}
+      style={{ maxWidth: '100%' }}
     >
       <ModalHeader toggle={toggleModal}>
         {!addNewFlag && editId ? 'Cập nhật bài viết' : 'Thêm mới bài viết'}

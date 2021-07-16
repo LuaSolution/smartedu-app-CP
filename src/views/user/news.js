@@ -4,9 +4,8 @@ import UserFooterLayout from 'components/users/UserFooterLayout'
 import bgNewsElearning from 'atoms/home/bgNewsElearning.svg'
 import axios from 'helpers/axios'
 import momentTime from 'helpers/moment'
-import { Skeleton, Typography, Drawer } from 'antd'
+import { Skeleton, Typography, Drawer, Card } from 'antd'
 import { IMG_ERROR, NEWS_PATH } from 'defines'
-import { Card, CardBody } from 'reactstrap'
 import detectMobile from 'helpers/detectMobile'
 import { NyanCatSpinner as Spin } from 'atoms'
 import 'assets/user/news.css'
@@ -69,33 +68,31 @@ const NewsPage = (props) => {
   const renderDetail = (item) => {
     return (
       <Card>
-        <CardBody>
-          <div
-            style={{
-              borderRadius: 5,
-              width: '100%',
-              height: 300,
-              backgroundImage: `url(${NEWS_PATH + item.id + '.webp?' + rand})`,
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'center',
-              marginBottom: 15,
-            }}
-          ></div>
-          <h3
-            style={{
-              textAlign: 'center',
-              fontWeight: 'bold',
-              margin: '50px 0',
-            }}
-          >
-            {item.title}
-          </h3>
-          <div
-            dangerouslySetInnerHTML={{ __html: item.content }}
-            style={{ margin: 0 }}
-          />
-        </CardBody>
+        <div
+          style={{
+            borderRadius: 5,
+            width: '100%',
+            height: 300,
+            backgroundImage: `url(${NEWS_PATH + item.id + '.webp?' + rand})`,
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            marginBottom: 15,
+          }}
+        ></div>
+        <h3
+          style={{
+            textAlign: 'center',
+            fontWeight: 'bold',
+            margin: '50px 0',
+          }}
+        >
+          {item.title}
+        </h3>
+        <div
+          dangerouslySetInnerHTML={{ __html: item.content }}
+          style={{ margin: 0 }}
+        />
       </Card>
     )
   }

@@ -80,9 +80,9 @@ const AddNewModal = ({ modalOpen, toggleModal, editId, addNewFlag, addNew, editN
         .post('admin/news/update', { id: editId, ...params })
         .then(res => {
           if (res.data.failed) {
-            message.errorr('Cập nhật bài viết thất bại')
+            message.errorr('Cập nhật đơn hàng thất bại')
           } else {
-            message.success('Cập nhật bài viết thành công')
+            message.success('Cập nhật đơn hàng thành công')
             editNews({ id: editId, ...params })
           }
         })
@@ -95,9 +95,9 @@ const AddNewModal = ({ modalOpen, toggleModal, editId, addNewFlag, addNew, editN
         .post('admin/news/create', params)
         .then(res => {
           if (res.data.failed) {
-            message.errorr('Tạo bài viết thất bại')
+            message.errorr('Tạo đơn hàng thất bại')
           } else {
-            message.success('Tạo bài viết thành công')
+            message.success('Tạo đơn hàng thành công')
             addNew({
               id: res.data,
               title: title.value,
@@ -129,7 +129,7 @@ const AddNewModal = ({ modalOpen, toggleModal, editId, addNewFlag, addNew, editN
       style={{ maxWidth: '700px' }}
     >
       <ModalHeader toggle={toggleModal}>
-        {!addNewFlag && editId ? 'Cập nhật bài viết' : 'Thêm mới bài viết'}
+        {!addNewFlag && editId ? 'Cập nhật đơn hàng' : 'Thêm mới đơn hàng'}
       </ModalHeader>
       <Spin spinning={loading}>
         <ModalBody>
@@ -138,10 +138,10 @@ const AddNewModal = ({ modalOpen, toggleModal, editId, addNewFlag, addNew, editN
             layout="horizontal"
             size="medium"
           >
-            <Form.Item label='Tiêu đề bài viết'>
+            <Form.Item label='Tiêu đề đơn hàng'>
               <Input {...title} />
             </Form.Item>
-            <Form.Item label='Nội dung bài viết'>
+            <Form.Item label='Nội dung đơn hàng'>
               <ReactQuill
                 theme="snow"
                 {...content}
